@@ -1,0 +1,4458 @@
+{
+    "activemq": {
+        "CVE-2015-1830": {
+            "cwe": "CWE-22",
+            "fixing_commits": {
+                "729c4731574ffffaf58ebefdbaeb3bd19ed1c7b7": {
+                    "activemq-fileserver/src/main/java/org/apache/activemq/util/FilenameGuardFilter.java": {
+                        "63": {
+                            "Previous Commits": [
+                                "9fd5cb7dfe0fcc431f99d5e14206e0090e72f36b",
+                                "540dd5c987855fc6b0981ece021358645ae07827",
+                                "e6d20f3932b556377218ac2e353a2cc99d26d1ea"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e6d20f3932b556377218ac2e353a2cc99d26d1ea"
+                            ]
+                        }
+                    }
+                },
+                "9fd5cb7dfe0fcc431f99d5e14206e0090e72f36b": {
+                    "activemq-fileserver/src/main/java/org/apache/activemq/util/FilenameGuardFilter.java": {
+                        "63": {
+                            "Previous Commits": [
+                                "540dd5c987855fc6b0981ece021358645ae07827",
+                                "e6d20f3932b556377218ac2e353a2cc99d26d1ea"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e6d20f3932b556377218ac2e353a2cc99d26d1ea"
+                            ]
+                        }
+                    },
+                    "activemq-fileserver/src/main/webapp/index.html": {
+                        "19": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "26": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2012-6092": {
+            "cwe": "CWE-79",
+            "fixing_commits": {
+                "51eb87a84be88d28383ea48f6e341ffe1203c5ba": {
+                    "activemq-web-demo/src/main/webapp/websocket/chat.js": {
+                        "32": {
+                            "Previous Commits": [
+                                "e72f43f8e6f23a29112a6e85dc44d707eeb4e547"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e72f43f8e6f23a29112a6e85dc44d707eeb4e547"
+                            ]
+                        },
+                        "42": {
+                            "Previous Commits": [
+                                "e72f43f8e6f23a29112a6e85dc44d707eeb4e547"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e72f43f8e6f23a29112a6e85dc44d707eeb4e547"
+                            ]
+                        }
+                    },
+                    "activemq-web/src/main/java/org/apache/activemq/web/PortfolioPublishServlet.java": {
+                        "73": {
+                            "Previous Commits": [
+                                "540dd5c987855fc6b0981ece021358645ae07827",
+                                "40a7d3b6ac35d2ecb34e85fc3403d2e48e33874e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "40a7d3b6ac35d2ecb34e85fc3403d2e48e33874e"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-1880": {
+            "cwe": "CWE-79",
+            "fixing_commits": {
+                "fafd12dfd4f71336f8e32c090d40ed1445959b40": {
+                    "activemq-web/src/main/java/org/apache/activemq/web/PortfolioPublishServlet.java": {
+                        "71": {
+                            "Previous Commits": [
+                                "40a7d3b6ac35d2ecb34e85fc3403d2e48e33874e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "40a7d3b6ac35d2ecb34e85fc3403d2e48e33874e"
+                            ]
+                        }
+                    },
+                    "assembly/src/sample-conf/activemq-demo.xml": {
+                        "204": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "205": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-3576": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "00921f22ff9a8792d7663ef8fadd4823402a6324": {
+                    "activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnection.java": {
+                        "1537": {
+                            "Previous Commits": [
+                                "98cd515fff69a930164df0a4f03e69f720362522"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "98cd515fff69a930164df0a4f03e69f720362522"
+                            ]
+                        },
+                        "1538": {
+                            "Previous Commits": [
+                                "ecf89a60bfd8089d1b1de5666bd2e9d5938abe8e",
+                                "230a86c4897e10fbc5e7384b064cc526395d47e5",
+                                "98cd515fff69a930164df0a4f03e69f720362522",
+                                "fb3b6dba571b9dbffaac45ac920037760ceb6dbc"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "fb3b6dba571b9dbffaac45ac920037760ceb6dbc"
+                            ]
+                        },
+                        "1539": {
+                            "Previous Commits": [
+                                "230a86c4897e10fbc5e7384b064cc526395d47e5",
+                                "fb3b6dba571b9dbffaac45ac920037760ceb6dbc"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "fb3b6dba571b9dbffaac45ac920037760ceb6dbc"
+                            ]
+                        },
+                        "1540": {
+                            "Previous Commits": [
+                                "ecf89a60bfd8089d1b1de5666bd2e9d5938abe8e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ecf89a60bfd8089d1b1de5666bd2e9d5938abe8e"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "commons-compress": {
+        "CVE-2018-11771": {
+            "cwe": "CWE-835",
+            "fixing_commits": {
+                "a41ce6892cb0590b2e658704434ac0dbcb6834c8": {
+                    "src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.java": {
+                        "528": {
+                            "Previous Commits": [
+                                "9dd152d46cfd2c5153c44691f424c8660d422346",
+                                "dc3fc4703211876fb38cccf55adc92ee5cbc28d0",
+                                "008ca948dadacea8d1a2662c577fdcb25f32d5e2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "008ca948dadacea8d1a2662c577fdcb25f32d5e2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-1324": {
+            "cwe": "CWE-835",
+            "fixing_commits": {
+                "2a2f1dc48e22a34ddb72321a4db211da91aa933b": {
+                    "src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.java": {
+                        "313": {
+                            "Previous Commits": [
+                                "a433f625f89c1d464b05186411ff20802e292fb4"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a433f625f89c1d464b05186411ff20802e292fb4"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "cordova-plugin-file-transfer": {
+        "CVE-2015-5204": {
+            "cwe": "NVD-CWE-Other",
+            "fixing_commits": {
+                "2b31723708256c08c5209308eb6ccfb03e2ab990": {
+                    "src/android/FileTransfer.java": {
+                        "222": {
+                            "Previous Commits": [
+                                "ad6647120db12f0e67ee4a952a71ea494a39a475",
+                                "35e89b3aeccc9377d85ea382091ea50a0915949f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ad6647120db12f0e67ee4a952a71ea494a39a475"
+                            ]
+                        }
+                    }
+                },
+                "ad6647120db12f0e67ee4a952a71ea494a39a475": {
+                    "src/android/FileTransfer.java": {
+                        "204": {
+                            "Previous Commits": [
+                                "35e89b3aeccc9377d85ea382091ea50a0915949f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "35e89b3aeccc9377d85ea382091ea50a0915949f"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "cxf": {
+        "CVE-2018-8039": {
+            "cwe": "CWE-755",
+            "fixing_commits": {
+                "fae6fabf9bd7647f5e9cb68897a7d72b545b741b": {
+                    "rt/transports/http/src/main/java/org/apache/cxf/transport/https/HttpsURLConnectionFactory.java": {
+                        "185": {
+                            "Previous Commits": [
+                                "1120e6ff3f3f419e07f6410a27b56ae56ea53550",
+                                "b933e1921ab80c22a4faf8cb412bb46aa523f9b8"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1120e6ff3f3f419e07f6410a27b56ae56ea53550"
+                            ]
+                        }
+                    }
+                },
+                "8ed6208f987ff72e4c4d2cf8a6b1ec9b27575d4b": {
+                    "rt/transports/http/src/main/java/org/apache/cxf/transport/https/HttpsURLConnectionFactory.java": {
+                        "196": {
+                            "Previous Commits": [
+                                "1120e6ff3f3f419e07f6410a27b56ae56ea53550",
+                                "b933e1921ab80c22a4faf8cb412bb46aa523f9b8"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b933e1921ab80c22a4faf8cb412bb46aa523f9b8"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-8739": {
+            "cwe": "CWE-611",
+            "fixing_commits": {
+                "9deb2d179758d3da47ce3ea492c2606c0a6a8475": {
+                    "rt/rs/extensions/providers/src/main/java/org/apache/cxf/jaxrs/provider/atom/AbstractAtomProvider.java": {
+                        "92": {
+                            "Previous Commits": [
+                                "37b616d3e542f4b8adb131171a4fad337278be5c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "37b616d3e542f4b8adb131171a4fad337278be5c"
+                            ]
+                        },
+                        "95": {
+                            "Previous Commits": [
+                                "7d30aec26dc1a64a05d838d081e1ec09cc5a6ee7",
+                                "42d3104c050e94c82e1659c0226646b66a42e14c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "42d3104c050e94c82e1659c0226646b66a42e14c"
+                            ]
+                        }
+                    }
+                },
+                "d9e2a6e7260ea12efa5355ffdfbf0b2415bccd14": {
+                    "rt/rs/extensions/providers/src/main/java/org/apache/cxf/jaxrs/provider/atom/AbstractAtomProvider.java": {
+                        "92": {
+                            "Previous Commits": [
+                                "267622c645564bfa5ae82dc6b11d83b8797e119f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "267622c645564bfa5ae82dc6b11d83b8797e119f"
+                            ]
+                        },
+                        "95": {
+                            "Previous Commits": [
+                                "7d30aec26dc1a64a05d838d081e1ec09cc5a6ee7",
+                                "42d3104c050e94c82e1659c0226646b66a42e14c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "42d3104c050e94c82e1659c0226646b66a42e14c"
+                            ]
+                        }
+                    }
+                },
+                "8e4970d931ae72f92c54d170a844b37137b8fda6": {
+                    "rt/rs/extensions/providers/src/main/java/org/apache/cxf/jaxrs/provider/atom/AbstractAtomProvider.java": {
+                        "92": {
+                            "Previous Commits": [
+                                "8ae768d769543c82c834ee9f9df883c9b5bbe56b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "8ae768d769543c82c834ee9f9df883c9b5bbe56b"
+                            ]
+                        },
+                        "95": {
+                            "Previous Commits": [
+                                "7d30aec26dc1a64a05d838d081e1ec09cc5a6ee7",
+                                "42d3104c050e94c82e1659c0226646b66a42e14c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "42d3104c050e94c82e1659c0226646b66a42e14c"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-3156": {
+            "cwe": "NVD-CWE-noinfo",
+            "fixing_commits": {
+                "1338469f7d25cfcda75b547c68bed95bd97903ac": {
+                    "rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jwe/AesCbcHmacJweDecryption.java": {
+                        "59": {
+                            "Previous Commits": [
+                                "3dc932f502e3486d7de5825d097b4d7000d8ecbe"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3dc932f502e3486d7de5825d097b4d7000d8ecbe"
+                            ]
+                        }
+                    },
+                    "rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jws/HmacJwsSignatureVerifier.java": {
+                        "56": {
+                            "Previous Commits": [
+                                "8adaa1d2bbe2f5a55e40ebf9189e9040f82cac0d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "8adaa1d2bbe2f5a55e40ebf9189e9040f82cac0d"
+                            ]
+                        }
+                    },
+                    "rt/rs/security/oauth-parent/oauth2/src/main/java/org/apache/cxf/rs/security/oauth2/tokens/hawk/AbstractHawkAccessTokenValidator.java": {
+                        "81": {
+                            "Previous Commits": [
+                                "e9b59cae176724350aee787de86c531242b51023"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e9b59cae176724350aee787de86c531242b51023"
+                            ]
+                        }
+                    }
+                },
+                "e66ce235ee5f8dbde467c8c23eeb622b072d0bf3": {
+                    "rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jwe/AesCbcHmacJweDecryption.java": {
+                        "59": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                },
+                "555843f9563ccfc2ca1afb2950aebb4505d7711b": {
+                    "rt/rs/security/jose-parent/jose/src/main/java/org/apache/cxf/rs/security/jose/jwe/AesCbcHmacJweDecryption.java": {
+                        "59": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-0239": {
+            "cwe": "CWE-287",
+            "fixing_commits": {
+                "295a4e2f9eb3e7e0513980202949ccc424dee2d4": {
+                    "rt/ws/security/src/main/java/org/apache/cxf/ws/security/wss4j/policyvalidators/UsernameTokenPolicyValidator.java": {
+                        "97": {
+                            "Previous Commits": [
+                                "956ea048b6390f57f2ea68d78139e7c61404c4e1"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "956ea048b6390f57f2ea68d78139e7c61404c4e1"
+                            ]
+                        }
+                    },
+                    "systests/ws-security/src/test/java/org/apache/cxf/systest/ws/policy/JavaFirstPolicyServiceTest.java": {
+                        "74": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "112": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-5253": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "845eccb6484b43ba02875c71e824db23ae4f20c0": {
+                    "rt/rs/security/sso/saml/src/main/java/org/apache/cxf/rs/security/saml/sso/SAMLSSOResponseValidator.java": {
+                        "95": {
+                            "Previous Commits": [
+                                "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+                            ]
+                        },
+                        "117": {
+                            "Previous Commits": [
+                                "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+                            ]
+                        },
+                        "129": {
+                            "Previous Commits": [
+                                "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f3a4019a87dc58084b38057e0fa4c9577a0cb57e"
+                            ]
+                        },
+                        "143": {
+                            "Previous Commits": [
+                                "4575921f8867ee158e434548d10bfa05942b4d7e",
+                                "4224f1ff1c70027c9df680985d188b1857a0bad5"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4224f1ff1c70027c9df680985d188b1857a0bad5"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "lucene-solr": {
+        "CVE-2013-6408": {
+            "cwe": "NVD-CWE-noinfo",
+            "fixing_commits": {
+                "7239a57a51ea0f4d05dd330ce5e15e4f72f72747": {
+                    "solr/core/src/java/org/apache/solr/handler/DocumentAnalysisRequestHandler.java": {
+                        "106": {
+                            "Previous Commits": [
+                                "129dcfc99bc069e791e792cb3dd7a31f8f4d6842"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "129dcfc99bc069e791e792cb3dd7a31f8f4d6842"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "shiro": {
+        "CVE-2016-6802": {
+            "cwe": "CWE-284",
+            "fixing_commits": {
+                "b15ab927709ca18ea4a02538be01919a19ab65af": {
+                    "web/src/main/java/org/apache/shiro/web/util/WebUtils.java": {
+                        "255": {
+                            "Previous Commits": [
+                                "9fd5bb2ec9c6106fd0843e80b28212f0dd973408"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "9fd5bb2ec9c6106fd0843e80b28212f0dd973408"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "struts": {
+        "CVE-2016-8738": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "554b9dddb0fbd1e581ef577dd62a7c22955ad0f6": {
+                    "core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.java": {
+                        "58": {
+                            "Previous Commits": [
+                                "d19b9eaa82753a5dd671ee4f0847574f65f4aebf",
+                                "c50605a945b7b6b62b0869210a3146efd084b2ae",
+                                "0c543aef318341ca9bd482e15f1637497b8a4dfd"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0c543aef318341ca9bd482e15f1637497b8a4dfd"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-7809": {
+            "cwe": "CWE-352",
+            "fixing_commits": {
+                "1f301038a751bf16e525607c3db513db835b2999": {
+                    "core/src/main/java/org/apache/struts2/util/TokenHelper.java": {
+                        "54": {
+                            "Previous Commits": [
+                                "7a0a6d58016b244e9521442f1e9666521f5c61b9"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7a0a6d58016b244e9521442f1e9666521f5c61b9"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-9805": {
+            "cwe": "CWE-502",
+            "fixing_commits": {
+                "19494718865f2fb7da5ea363de3822f87fbda264": {
+                    "plugins/rest/src/main/java/org/apache/struts2/rest/handler/XStreamHandler.java": {
+                        "38": {
+                            "Previous Commits": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ]
+                        },
+                        "45": {
+                            "Previous Commits": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ]
+                        }
+                    }
+                },
+                "6dd6e5cfb7b5e020abffe7e8091bd63fe97c10af": {
+                    "plugins/rest/src/main/java/org/apache/struts2/rest/handler/XStreamHandler.java": {
+                        "38": {
+                            "Previous Commits": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ]
+                        },
+                        "45": {
+                            "Previous Commits": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6229ad7a4726717bf594e9b4e4afa90e1e028829"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-0785": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "15857a69e7baf3675804495a5954cd0756ac8364": {
+                    "core/src/main/java/org/apache/struts2/components/Component.java": {
+                        "376": {
+                            "Previous Commits": [
+                                "bbdbe79929d477bd65643c841202c89401666bf8",
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        }
+                    },
+                    "core/src/main/java/org/apache/struts2/util/ComponentUtils.java": {
+                        "46": {
+                            "Previous Commits": [
+                                "73494b036fbed01bc83febb65135cfae272dea8f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "73494b036fbed01bc83febb65135cfae272dea8f"
+                            ]
+                        },
+                        "47": {
+                            "Previous Commits": [
+                                "73494b036fbed01bc83febb65135cfae272dea8f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "73494b036fbed01bc83febb65135cfae272dea8f"
+                            ]
+                        }
+                    },
+                    "core/src/main/java/org/apache/struts2/views/jsp/ui/AbstractUITag.java": {
+                        "309": {
+                            "Previous Commits": [
+                                "73494b036fbed01bc83febb65135cfae272dea8f",
+                                "a7161ca7d7a2abfcbe6d4499883747705cef1ef8",
+                                "5e8080abe3e0b3313e40c71c2ca5930a88ebe4f6"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "73494b036fbed01bc83febb65135cfae272dea8f"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2012-4387": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "87935af56a27235e9399308ee1fcfb74f8edcefa": {
+                    "xwork-core/src/main/java/com/opensymphony/xwork2/interceptor/ParametersInterceptor.java": {
+                        "153": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "353": {
+                            "Previous Commits": [
+                                "6137ac2293a2649400c22c4d81d9a2018e80bbf3",
+                                "0c543aef318341ca9bd482e15f1637497b8a4dfd"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0c543aef318341ca9bd482e15f1637497b8a4dfd"
+                            ]
+                        },
+                        "356": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    },
+                    "xwork-core/src/test/java/com/opensymphony/xwork2/interceptor/ParametersInterceptorTest.java": {
+                        "204": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-3087": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "98d2692e434fe7f4d445ade24fe2c9860de1c13f": {
+                    "core/src/main/java/org/apache/struts2/views/xslt/XSLTResult.java": {
+                        "451": {
+                            "Previous Commits": [
+                                "93f7cecb0ba6aae617f782c3ac4bf82e27640cf7",
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        },
+                        "452": {
+                            "Previous Commits": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        },
+                        "454": {
+                            "Previous Commits": [
+                                "93f7cecb0ba6aae617f782c3ac4bf82e27640cf7",
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        },
+                        "455": {
+                            "Previous Commits": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        }
+                    }
+                },
+                "6bd694b7980494c12d49ca1bf39f12aec3e03e2f": {
+                    "core/src/main/java/org/apache/struts2/views/xslt/XSLTResult.java": {
+                        "407": {
+                            "Previous Commits": [
+                                "93f7cecb0ba6aae617f782c3ac4bf82e27640cf7",
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        },
+                        "408": {
+                            "Previous Commits": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        },
+                        "410": {
+                            "Previous Commits": [
+                                "93f7cecb0ba6aae617f782c3ac4bf82e27640cf7",
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        },
+                        "411": {
+                            "Previous Commits": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c01d3a92db7f71f751a0522912d24bcf4a94a1b0"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tomcat": {
+        "CVE-2011-1582": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "299b26af66793438c323ea6b18462fa44683080f": {
+                    "java/org/apache/catalina/core/StandardWrapper.java": {
+                        "1139": {
+                            "Previous Commits": [
+                                "5fd4e9be3628708a9a9396c93a7297acc769350b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "5fd4e9be3628708a9a9396c93a7297acc769350b"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "xerces2-j": {
+        "CVE-2013-4002": {
+            "cwe": "NVD-CWE-noinfo",
+            "fixing_commits": {
+                "266e837852e0f0e3c8c1ad572b6fc4dbb4ded17b": {
+                    "src/org/apache/xerces/impl/XMLScanner.java": {
+                        "545": {
+                            "Previous Commits": [
+                                "6fec9ee0c874aba003c6652a39c4de16036f6e4f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6fec9ee0c874aba003c6652a39c4de16036f6e4f"
+                            ]
+                        }
+                    }
+                },
+                "628cbc7142ef9acfb61b8e571aab63504235849b": {
+                    "src/org/apache/xerces/impl/XMLScanner.java": {
+                        "545": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "blynk-server": {
+        "CVE-2018-17785": {
+            "cwe": "CWE-22",
+            "fixing_commits": {
+                "806bc7847a687203a904d24feb1a0278de889e62": {
+                    "server/http-core/src/main/java/cc/blynk/core/http/handlers/StaticFileHandler.java": {
+                        "189": {
+                            "Previous Commits": [
+                                "9b5117aa81191db7b63fb1b1c1a8f4702e4e7ba5",
+                                "3643112207190dc9ba16ae27572f1a75bb33d174",
+                                "c148408df43fa2e3c7f4ad1446c3abc8f0ecc2cc"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c148408df43fa2e3c7f4ad1446c3abc8f0ecc2cc"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "buck": {
+        "CVE-2018-6331": {
+            "cwe": "CWE-502",
+            "fixing_commits": {
+                "8c5500981812564877bd122c0f8fab48d3528ddf": {
+                    "src/com/facebook/buck/cli/ParserCacheCommand.java": {
+                        "91": {
+                            "Previous Commits": [
+                                "e6d6dfacb93311425f4c1336a1107c657e647bb9"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e6d6dfacb93311425f4c1336a1107c657e647bb9"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "javamelody": {
+        "CVE-2013-4378": {
+            "cwe": "CWE-79",
+            "fixing_commits": {
+                "aacbc46151ff4ac1ca34ce0899c2a6113071c66e": {
+                    "javamelody-core/src/main/java/net/bull/javamelody/HtmlSessionInformationsReport.java": {
+                        "162": {
+                            "Previous Commits": [
+                                "2a260d96e9e905e7e574b8d92af8e2abd8ee4cc6"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2a260d96e9e905e7e574b8d92af8e2abd8ee4cc6"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "jenkins": {
+        "CVE-2017-1000391": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "566a8ddb885f0bef9bc848e60455c0aabbf0c1d3": {
+                    "core/src/main/java/jenkins/model/IdStrategy.java": {
+                        "206": {
+                            "Previous Commits": [
+                                "1c6734098ca068b66bbd1abab30353d7a4f1c5e4"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1c6734098ca068b66bbd1abab30353d7a4f1c5e4"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-2064": {
+            "cwe": "CWE-200",
+            "fixing_commits": {
+                "fbf96734470caba9364f04e0b77b0bae7293a1ec": {
+                    "core/src/main/java/hudson/security/HudsonPrivateSecurityRealm.java": {
+                        "176": {
+                            "Previous Commits": [
+                                "ebc6af72e90cd14a77b41cccf807c3872cd53273",
+                                "1952937655c28bf5e523b8ea806dba504e76d65f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1952937655c28bf5e523b8ea806dba504e76d65f"
+                            ]
+                        },
+                        "177": {
+                            "Previous Commits": [
+                                "1952937655c28bf5e523b8ea806dba504e76d65f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1952937655c28bf5e523b8ea806dba504e76d65f"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-1000406": {
+            "cwe": "CWE-22",
+            "fixing_commits": {
+                "c3351d2e7c3edfee82b9470e9aa1168982296072": {
+                    "core/src/main/java/hudson/model/FileParameterValue.java": {
+                        "145": {
+                            "Previous Commits": [
+                                "e96c8f8f84b05e4c760d5eaede5725dd6068659c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e96c8f8f84b05e4c760d5eaede5725dd6068659c"
+                            ]
+                        },
+                        "230": {
+                            "Previous Commits": [
+                                "e96c8f8f84b05e4c760d5eaede5725dd6068659c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e96c8f8f84b05e4c760d5eaede5725dd6068659c"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-1000400": {
+            "cwe": "CWE-862",
+            "fixing_commits": {
+                "b2083a387a5bdb6f7ee7f7c81a1f6312aca2a558": {
+                    "core/src/main/java/hudson/model/AbstractBuild.java": {
+                        "1111": {
+                            "Previous Commits": [
+                                "7c4abd909adf82d1ab5ba6567c09facc3250b1ce",
+                                "44a713a90cef3279e6f9c782f3ca5374fe9d757a",
+                                "db430b3896faf78023ecf03b043469a50bbf24e6"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "db430b3896faf78023ecf03b043469a50bbf24e6"
+                            ]
+                        }
+                    },
+                    "core/src/main/java/hudson/model/AbstractProject.java": {
+                        "1648": {
+                            "Previous Commits": [
+                                "91336442ff91bcb5fe3a45a18a41fac9e337aa98"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "91336442ff91bcb5fe3a45a18a41fac9e337aa98"
+                            ]
+                        },
+                        "1653": {
+                            "Previous Commits": [
+                                "91336442ff91bcb5fe3a45a18a41fac9e337aa98"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "91336442ff91bcb5fe3a45a18a41fac9e337aa98"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-2067": {
+            "cwe": "CWE-79",
+            "fixing_commits": {
+                "5d57c855f3147bfc5e7fda9252317b428a700014": {
+                    "core/src/main/java/hudson/model/Cause.java": {
+                        "374": {
+                            "Previous Commits": [
+                                "910bcfa5b8743a2226cc7364130b6de10f120334"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "910bcfa5b8743a2226cc7364130b6de10f120334"
+                            ]
+                        },
+                        "375": {
+                            "Previous Commits": [
+                                "910bcfa5b8743a2226cc7364130b6de10f120334"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "910bcfa5b8743a2226cc7364130b6de10f120334"
+                            ]
+                        },
+                        "376": {
+                            "Previous Commits": [
+                                "910bcfa5b8743a2226cc7364130b6de10f120334",
+                                "e59283e65c0049fa1ab9028bb28fe01534ae38b5"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e59283e65c0049fa1ab9028bb28fe01534ae38b5"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-8103": {
+            "cwe": "CWE-77",
+            "fixing_commits": {
+                "5bd9b55a2a3249939fd78c501b8959a804c1164b": {
+                    "cli/src/main/java/hudson/cli/Connection.java": {
+                        "110": {
+                            "Previous Commits": [
+                                "0d4117e48fe1152c07ab49dd9b662eb14a459e58"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0d4117e48fe1152c07ab49dd9b662eb14a459e58"
+                            ]
+                        }
+                    },
+                    "core/src/main/java/hudson/util/ReflectionUtils.java": {
+                        "125": {
+                            "Previous Commits": [
+                                "089f66504ed766cb09ea10c706eb86dfa35dad6d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "089f66504ed766cb09ea10c706eb86dfa35dad6d"
+                            ]
+                        }
+                    },
+                    "pom.xml": {
+                        "177": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-7330": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "36342d71e29e0620f803a7470ce96c61761648d8": {
+                    "core/src/main/java/hudson/model/Descriptor.java": {
+                        "939": {
+                            "Previous Commits": [
+                                "3356f4da29f3e4a30ea2cbb45a8c23a479c9c146",
+                                "e1154a85a146a0b4757a5d5b29d62c8c04d39b6e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e1154a85a146a0b4757a5d5b29d62c8c04d39b6e"
+                            ]
+                        },
+                        "949": {
+                            "Previous Commits": [
+                                "ea9a126536b24f917c3c6b3b14c5500e19a117c1",
+                                "e1154a85a146a0b4757a5d5b29d62c8c04d39b6e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e1154a85a146a0b4757a5d5b29d62c8c04d39b6e"
+                            ]
+                        },
+                        "963": {
+                            "Previous Commits": [
+                                "8d771bc2e335fea5369ba06066c87866494fa5e3"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "8d771bc2e335fea5369ba06066c87866494fa5e3"
+                            ]
+                        }
+                    },
+                    "core/src/main/java/hudson/tasks/BuildTrigger.java": {
+                        "322": {
+                            "Previous Commits": [
+                                "7c19d7930ed623dd57428df63c58e82d3e34fe2a",
+                                "f27e2b5c8a5182b9bf03680d473d109bcf268bda",
+                                "a275556df61047f702276ce2ad9cb94fbfefc1a6"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a275556df61047f702276ce2ad9cb94fbfefc1a6"
+                            ]
+                        }
+                    },
+                    "core/src/main/resources/lib/hudson/project/config-upstream-pseudo-trigger.jelly": {
+                        "41": {
+                            "Previous Commits": [
+                                "4d33b6a59826d0a293691ae5335c4a49f2ab30a6",
+                                "779e113400883d1a7b855c49184c746c95143c22",
+                                "f7e9b4fbd1f43435b867a3763511c45a01098710",
+                                "fb873cbaf2e6b3cd4d040bc4ca85dea1cc08c5af",
+                                "f7ce7ccbf9aec2da95e5a59743dc20c41e1550c4"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f7ce7ccbf9aec2da95e5a59743dc20c41e1550c4"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-2065": {
+            "cwe": "CWE-79",
+            "fixing_commits": {
+                "a0b00508eeb74d7033dc4100eb382df4e8fa72e7": {
+                    "core/src/main/java/hudson/model/View.java": {
+                        "769": {
+                            "Previous Commits": [
+                                "eb1a1ffa9432318afba67ada4cf8ba2b5d573bfd"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "eb1a1ffa9432318afba67ada4cf8ba2b5d573bfd"
+                            ]
+                        }
+                    },
+                    "core/src/main/java/jenkins/model/Jenkins.java": {
+                        "3420": {
+                            "Previous Commits": [
+                                "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+                            ]
+                        },
+                        "3422": {
+                            "Previous Commits": [
+                                "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+                            ]
+                        },
+                        "3967": {
+                            "Previous Commits": [
+                                "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "70c10658148c3eab3b4c4122705e1ed3a12e193d"
+                            ]
+                        }
+                    },
+                    "core/src/main/resources/lib/hudson/setIconSize.jelly": {
+                        "30": {
+                            "Previous Commits": [
+                                "efbb3fcc84055c854cd12dbe683304a03e88d14c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "efbb3fcc84055c854cd12dbe683304a03e88d14c"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-2058": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "b6b2a367a7976be80a799c6a49fa6c58d778b50e": {
+                    "core/src/main/java/hudson/model/AbstractProject.java": {
+                        "1942": {
+                            "Previous Commits": [
+                                "36342d71e29e0620f803a7470ce96c61761648d8"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "36342d71e29e0620f803a7470ce96c61761648d8"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-2068": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "0530a6645aac10fec005614211660e98db44b5eb": {
+                    "core/src/main/java/hudson/util/RemotingDiagnostics.java": {
+                        "205": {
+                            "Previous Commits": [
+                                "70c10658148c3eab3b4c4122705e1ed3a12e193d",
+                                "6784369b13c598fcd85c06f28d1a7d76cc20dcc8"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6784369b13c598fcd85c06f28d1a7d76cc20dcc8"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-1000395": {
+            "cwe": "CWE-200",
+            "fixing_commits": {
+                "7b1f8e96a8d97dd09e5e093fcdb010b3295acc77": {
+                    "core/src/main/java/hudson/model/User.java": {
+                        "292": {
+                            "Previous Commits": [
+                                "f09983ec8fc95bd85e7cacba33253ac88ff227b3"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f09983ec8fc95bd85e7cacba33253ac88ff227b3"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-1999044": {
+            "cwe": "CWE-835",
+            "fixing_commits": {
+                "e5046911c57e60a1d6d8aca9b21bd9093b0f3763": {
+                    "core/src/main/java/hudson/scheduler/CronTab.java": {
+                        "207": {
+                            "Previous Commits": [
+                                "350bf691654b9d2700322964179b155b02c83c14"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "350bf691654b9d2700322964179b155b02c83c14"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-1000398": {
+            "cwe": "CWE-200",
+            "fixing_commits": {
+                "da06fd471cea79123821c778228eeb08e1cedcc7": {
+                    "core/src/main/java/hudson/model/Executor.java": {
+                        "486": {
+                            "Previous Commits": [
+                                "bf3c016358b3a5ebc8626d1952c55a5988239ece"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "bf3c016358b3a5ebc8626d1952c55a5988239ece"
+                            ]
+                        },
+                        "513": {
+                            "Previous Commits": [
+                                "cc38c6561b434d1b3bcb393cc67ed73f6cb50d73"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "cc38c6561b434d1b3bcb393cc67ed73f6cb50d73"
+                            ]
+                        }
+                    },
+                    "core/src/main/java/hudson/model/queue/WorkUnit.java": {
+                        "42": {
+                            "Previous Commits": [
+                                "92a2c48fab69b08eb0b9e3b8ff9a202d2c6ad09c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "92a2c48fab69b08eb0b9e3b8ff9a202d2c6ad09c"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "FFmpeg": {
+        "CVE-2018-6621": {
+            "cwe": "CWE-125",
+            "fixing_commits": {
+                "118e1b0b3370dd1c0da442901b486689efd1654b": {
+                    "libavcodec/utvideodec.c": {
+                        "679": {
+                            "Previous Commits": [
+                                "3ecc59bc35412d0cc2299668dd1f79fff090eb3f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ecc59bc35412d0cc2299668dd1f79fff090eb3f"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-14169": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "9d00fb9d70ee8c0cc7002b89318c5be00f1bbdad": {
+                    "libavformat/mxfdec.c": {
+                        "503": {
+                            "Previous Commits": [
+                                "daa290580dade36a69544a191e6983e920885c16",
+                                "d09ea6baaf1a2ea29df60d70c34d5387266f58f4"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "daa290580dade36a69544a191e6983e920885c16"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-7751": {
+            "cwe": "CWE-835",
+            "fixing_commits": {
+                "a6cba062051f345e8ebfdff34aba071ed73d923f": {
+                    "libavformat/img2dec.c": {
+                        "884": {
+                            "Previous Commits": [
+                                "a20f64bee235042f6e35c8e7ae65ccfddbf7343b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a20f64bee235042f6e35c8e7ae65ccfddbf7343b"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-14059": {
+            "cwe": "CWE-834",
+            "fixing_commits": {
+                "7e80b63ecd259d69d383623e75b318bf2bd491f6": {
+                    "libavformat/cinedec.c": {
+                        "270": {
+                            "Previous Commits": [
+                                "40f88796c69ae453e5fc4b8cd6432fa0ca85b923"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "40f88796c69ae453e5fc4b8cd6432fa0ca85b923"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-14767": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "c42a1388a6d1bfd8001bf6a4241d8ca27e49326d": {
+                    "libavformat/rtpdec_h264.c": {
+                        "169": {
+                            "Previous Commits": [
+                                "1c7e2cf9d33968375ee4025d2279c937e147dae2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1c7e2cf9d33968375ee4025d2279c937e147dae2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-9992": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "f52fbf4f3ed02a7d872d8a102006f29b4421f360": {
+                    "libavcodec/dfa.c": {
+                        "178": {
+                            "Previous Commits": [
+                                "d05f72c75445969cd7bdb1d860635c9880c67fb6",
+                                "8099187e897ddc90cb3902332c76fb2542dac308"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "8099187e897ddc90cb3902332c76fb2542dac308"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-5024": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "2d453188c2303da641dafb048dc1806790526dfd": {
+                    "libavformat/mov.c": {
+                        "4792": {
+                            "Previous Commits": [
+                                "70b922f371e27440a51ee1e9cc1c7db0e042ebd1"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "70b922f371e27440a51ee1e9cc1c7db0e042ebd1"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-5199": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "347cb14b7cba7560e53f4434b419b9d8800253e7": {
+                    "libavformat/mov.c": {
+                        "3281": {
+                            "Previous Commits": [
+                                "9ea812692c38c58a343cec5f66e8949655906edc"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "9ea812692c38c58a343cec5f66e8949655906edc"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-8364": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "df91aa034b82b77a3c4e01791f4a2b2ff6c82066": {
+                    "libavcodec/ivi.c": {
+                        "313": {
+                            "Previous Commits": [
+                                "28dda8a691f1c723a4a9365ab85f9625f1330096"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "28dda8a691f1c723a4a9365ab85f9625f1330096"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-6761": {
+            "cwe": "CWE-362",
+            "fixing_commits": {
+                "dabea74d0e82ea80cd344f630497cafcb3ef872c": {
+                    "libavcodec/vp8.c": {
+                        "167": {
+                            "Previous Commits": [
+                                "ac4b32df71bd932838043a4838b86d11e169707f",
+                                "53c20f17c78d1d8a0fc2505868f201e69ff59cc5",
+                                "951455c1c18d54177f281dba174078e54a835361"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "951455c1c18d54177f281dba174078e54a835361"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-9996": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "e1b60aad77c27ed5d4dfc11e5e6a05a38c70489d": {
+                    "libavcodec/cdxl.c": {
+                        "280": {
+                            "Previous Commits": [
+                                "126daeb5507425d5e9906731d70015d79045d131",
+                                "dc4e57489fa0f9cf4faf4c85cc405d6db77d84db"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "dc4e57489fa0f9cf4faf4c85cc405d6db77d84db"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-7862": {
+            "cwe": "CWE-787",
+            "fixing_commits": {
+                "8c2ea3030af7b40a3c4275696fb5c76cdb80950a": {
+                    "libavcodec/pictordec.c": {
+                        "145": {
+                            "Previous Commits": [
+                                "a526d6197a539852bcdcf737b2faaa9123e992de"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a526d6197a539852bcdcf737b2faaa9123e992de"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-10192": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "a5d25faa3f4b18dac737fdb35d0dd68eb0dc2156": {
+                    "ffserver.c": {
+                        "2741": {
+                            "Previous Commits": [
+                                "19c8c4ecf4e26762327a472dcf34132ceb196e30"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "19c8c4ecf4e26762327a472dcf34132ceb196e30"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-8546": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "e7e5114c506957f40aafd794e06de1a7e341e9d5": {
+                    "libavcodec/cinepak.c": {
+                        "138": {
+                            "Previous Commits": [
+                                "2a0dbb1efc1f019560ef72406771fd38962c3408",
+                                "2fdf638b0c66c22357d56f7cb205dd241b4a8c58"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2fdf638b0c66c22357d56f7cb205dd241b4a8c58"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-7014": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "86736f59d6a527d8bc807d09b93f971c0fe0bb07": {
+                    "libavcodec/pngdsp.c": {
+                        "34": {
+                            "Previous Commits": [
+                                "e92003514d7aab25d56e2d827820f47755d397ec"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e92003514d7aab25d56e2d827820f47755d397ec"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-4264": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "2960576378d17d71cc8dccc926352ce568b5eec1": {
+                    "libavcodec/g2meet.c": {
+                        "392": {
+                            "Previous Commits": [
+                                "2d66a58ccde05e764594bd7e5f0f9244634d0b2c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2d66a58ccde05e764594bd7e5f0f9244634d0b2c"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-3671": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "7edb984dd051b6919d7d8471c70499273f31b0fa": {
+                    "libavutil/log.c": {
+                        "183": {
+                            "Previous Commits": [
+                                "e69263cd01380b7b20b92588dcac324bf776b59f",
+                                "eb7efc126aed1947edcba81c2d1a9bf776206f5c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e69263cd01380b7b20b92588dcac324bf776b59f"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2012-5150": {
+            "cwe": "CWE-399",
+            "fixing_commits": {
+                "ae3d41636942cbc0236bad21ad06c65f4eb0f096": {
+                    "libavformat/matroskadec.c": {
+                        "2234": {
+                            "Previous Commits": [
+                                "7521c4bab28ff3a622171be5b39a6b210f4263f0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7521c4bab28ff3a622171be5b39a6b210f4263f0"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-2276": {
+            "cwe": "NVD-CWE-Other",
+            "fixing_commits": {
+                "8a6449167a6da8cb747cfe3502ae86ffaac2ed48": {
+                    "libavcodec/utils.c": {
+                        "1834": {
+                            "Previous Commits": [
+                                "2fe186409bf3249669271502298bdc8844ce4e0b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2fe186409bf3249669271502298bdc8844ce4e0b"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-0864": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "c10350358da58600884292c08a8690289b81de29": {
+                    "libavcodec/gifdec.c": {
+                        "122": {
+                            "Previous Commits": [
+                                "9321e93502810e4a3fcaf87bac156dba2fe3b477",
+                                "91499f4ee825502677dfc11b00205538720d0513"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "91499f4ee825502677dfc11b00205538720d0513"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "linux-kernel": {
+        "CVE-2016-2549": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "2ba1fe7a06d3624f9a7586d672b55f08f7c670f3": {
+                    "sound/core/hrtimer.c": {
+                        "93": {
+                            "Previous Commits": [
+                                "fcfdebe70759c74e2e701f69aaa7f0e5e32cf5a6",
+                                "bbaf5e97337287479eb78dbc3822d9560bbfd2e2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "bbaf5e97337287479eb78dbc3822d9560bbfd2e2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2008-3831": {
+            "cwe": "CWE-399",
+            "fixing_commits": {
+                "4b40893918203ee1a1f6a114316c2a19c072e9bd": {
+                    "drivers/gpu/drm/i915/i915_dma.c": {
+                        "943": {
+                            "Previous Commits": [
+                                "c153f45f9b7e30289157bba3ff5682291df16caa",
+                                "dc7a93190c21edbf3ed23e678ad04f852b9cff28"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2011-1759": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "0f22072ab50cac7983f9660d33974b45184da4f9": {
+                    "arch/arm/kernel/sys_oabi-compat.c": {
+                        "314": {
+                            "Previous Commits": [
+                                "687ad0191488a067b3b3cc94f670cc21f93811e1"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "687ad0191488a067b3b3cc94f670cc21f93811e1"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-8924": {
+            "cwe": "CWE-191",
+            "fixing_commits": {
+                "654b404f2a222f918af9b0cd18ad469d0c941a8e": {
+                    "drivers/usb/serial/io_ti.c": {
+                        "1764": {
+                            "Previous Commits": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-0203": {
+            "cwe": "CWE-416",
+            "fixing_commits": {
+                "86acdca1b63e6890540fa19495cfc708beff3d8b": {
+                    "fs/proc/base.c": {
+                        "1422": {
+                            "Previous Commits": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2011-0716": {
+            "cwe": "CWE-399",
+            "fixing_commits": {
+                "6b0d6a9b4296fa16a28d10d416db7a770fc03287": {
+                    "net/bridge/br_multicast.c": {
+                        "722": {
+                            "Previous Commits": [
+                                "eb1d16414339a6e113d89e2cca2556005d7ce919"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "eb1d16414339a6e113d89e2cca2556005d7ce919"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-0155": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "5678de3f15010b9022ee45673f33bcfc71d47b60": {
+                    "virt/kvm/ioapic.c": {
+                        "359": {
+                            "Previous Commits": [
+                                "2c2bf01136971c33e3b3fabce23925f372c1017e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2c2bf01136971c33e3b3fabce23925f372c1017e"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-5986": {
+            "cwe": "CWE-617",
+            "fixing_commits": {
+                "2dcab598484185dea7ec22219c76dcdd59e3cb90": {
+                    "net/sctp/socket.c": {
+                        "7429": {
+                            "Previous Commits": [
+                                "61c9fed41638249f8b6ca5345064eb1beb50179f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "61c9fed41638249f8b6ca5345064eb1beb50179f"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-10940": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "9de4ee40547fd315d4a0ed1dd15a2fa3559ad707": {
+                    "drivers/cdrom/cdrom.c": {
+                        "2374": {
+                            "Previous Commits": [
+                                "d2c5d4fc07a41a6048b01d3b2930aeff1235fda5"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d2c5d4fc07a41a6048b01d3b2930aeff1235fda5"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-0349": {
+            "cwe": "CWE-200",
+            "fixing_commits": {
+                "0a9ab9bdb3e891762553f667066190c1d22ad62b": {
+                    "net/bluetooth/hidp/core.c": {
+                        "934": {
+                            "Previous Commits": [
+                                "e1aaadd4d8162a2c33e41dd5a72234ea4d3b014f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e1aaadd4d8162a2c33e41dd5a72234ea4d3b014f"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-2922": {
+            "cwe": "CWE-17",
+            "fixing_commits": {
+                "6fd99094de2b83d1d4c8457f2c83483b2828e75a": {
+                    "net/ipv6/ndisc.c": {
+                        "1221": {
+                            "Previous Commits": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-8215": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "77751427a1ff25b27d47a4c36b12c3c8667855ac": {
+                    "net/ipv6/addrconf.c": {
+                        "5057": {
+                            "Previous Commits": [
+                                "e21e8467d3188a36f7f0af0d4b9aae74e23fda0e",
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2009-1385": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "ea30e11970a96cfe5e32c03a29332554573b4a10": {
+                    "drivers/net/e1000/e1000_main.c": {
+                        "4031": {
+                            "Previous Commits": [
+                                "a1415ee65500597e19c0ac44872db66105bad0e7",
+                                "b92ff8ee5763ee0b408f3cf2360f58dd7ea9c5da",
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "1da177e4c3f41524e886b7f1b8a0c1fc7321cac2"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2009-4410": {
+            "cwe": "NVD-CWE-Other",
+            "fixing_commits": {
+                "0bd87182d3ab18a32a8e9175d3f68754c58e3432": {
+                    "fs/fuse/file.c": {
+                        "1603": {
+                            "Previous Commits": [
+                                "59efec7b903987dcb60b9ebc85c7acd4443a11a1"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "59efec7b903987dcb60b9ebc85c7acd4443a11a1"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2010-4263": {
+            "cwe": "CWE-476",
+            "fixing_commits": {
+                "31b24b955c3ebbb6f3008a6374e61cf7c05a193c": {
+                    "drivers/net/igb/igb_main.c": {
+                        "5105": {
+                            "Previous Commits": [
+                                "047e0030f1e601233ae5b03910602ec93c620bce",
+                                "182ff8dfdb63e66ca81e4d3a4c746f8d578e5687",
+                                "d3352520273426e4c16e91d189aa8aa7ee5e96c5"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d3352520273426e4c16e91d189aa8aa7ee5e96c5"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-13220": {
+            "cwe": "CWE-843",
+            "fixing_commits": {
+                "51bda2bca53b265715ca1852528f38dc67429d9a": {
+                    "net/bluetooth/hidp/core.c": {
+                        "1317": {
+                            "Previous Commits": [
+                                "b4f34d8d9d26b2428fa7cf7c8f97690a297978e6"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b4f34d8d9d26b2428fa7cf7c8f97690a297978e6"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-9518": {
+            "cwe": "CWE-787",
+            "fixing_commits": {
+                "fe9c842695e26d8116b61b80bfb905356f07834b": {
+                    "net/nfc/netlink.c": {
+                        "64": {
+                            "Previous Commits": [
+                                "d9b8d8e19b073096d3609bbd60f82148d128b555"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d9b8d8e19b073096d3609bbd60f82148d128b555"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-5156": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "48900cb6af4282fa0fb6ff4d72a81aa3dadb5c39": {
+                    "drivers/net/virtio_net.c": {
+                        "1759": {
+                            "Previous Commits": [
+                                "98e778c9aa4f4f75550fa3a31358304e4ce67b96"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "98e778c9aa4f4f75550fa3a31358304e4ce67b96"
+                            ]
+                        },
+                        "1761": {
+                            "Previous Commits": [
+                                "98e778c9aa4f4f75550fa3a31358304e4ce67b96",
+                                "296f96fcfc160e29c01819c0c7b20c2dc8320edd"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "296f96fcfc160e29c01819c0c7b20c2dc8320edd"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-4170": {
+            "cwe": "CWE-362",
+            "fixing_commits": {
+                "cf872776fc84128bb779ce2b83a37c884c3203ae": {
+                    "drivers/tty/tty_ldsem.c": {
+                        "91": {
+                            "Previous Commits": [
+                                "4898e640caf03fdbaf2122d5a33949bf3e4a5b34"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4898e640caf03fdbaf2122d5a33949bf3e4a5b34"
+                            ]
+                        },
+                        "93": {
+                            "Previous Commits": [
+                                "4898e640caf03fdbaf2122d5a33949bf3e4a5b34"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4898e640caf03fdbaf2122d5a33949bf3e4a5b34"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2019-11085": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "51b00d8509dc69c98740da2ad07308b630d3eb7d": {
+                    "drivers/gpu/drm/i915/gvt/kvmgt.c": {
+                        "999": {
+                            "Previous Commits": [
+                                "659643f7d81432189c2c87230e2feee4c75c14c1"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "1017": {
+                            "Previous Commits": [
+                                "659643f7d81432189c2c87230e2feee4c75c14c1"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OpenSSL": {
+        "CVE-2015-3194": {
+            "cwe": "NVD-CWE-Other",
+            "fixing_commits": {
+                "c394a488942387246653833359a5c94b5832674e": {
+                    "crypto/rsa/rsa_ameth.c": {
+                        "271": {
+                            "Previous Commits": [
+                                "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8",
+                                "af7d6b936b4020cf433a0bb20f911f9e03576e50"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "af7d6b936b4020cf433a0bb20f911f9e03576e50"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-2182": {
+            "cwe": "CWE-787",
+            "fixing_commits": {
+                "07bed46f332fce8c1d157689a2cdf915a982ae34": {
+                    "crypto/bn/bn_print.c": {
+                        "74": {
+                            "Previous Commits": [
+                                "b196e7d936fb377d9c5b305748ac25ff0e53ef6d",
+                                "0f113f3ee4d629ef9a4a30911b22b224772085e5",
+                                "26a3a48d65c7464b400ec1de439994d7f0d25fed",
+                                "58964a492275ca9a59a0cd9c8155cb2491b4b909"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "58964a492275ca9a59a0cd9c8155cb2491b4b909"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-2105": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "5b814481f3573fa9677f3a31ee51322e2a22ee6a": {
+                    "crypto/evp/encode.c": {
+                        "160": {
+                            "Previous Commits": [
+                                "10621efd3296a92f489f6ab26a88e88d9790930e",
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2009-1379": {
+            "cwe": "CWE-399",
+            "fixing_commits": {
+                "561cbe567846a376153bea7f1f2d061e78029c2d": {
+                    "ssl/d1_both.c": {
+                        "539": {
+                            "Previous Commits": [
+                                "90acf770b52bdccc06e75356281780eb697ccb18",
+                                "54ef01b54bd64fdf5820d3860f4c458a9c2fa4f0",
+                                "36d16f8ee0845d932e250286e8e236580470e35b"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2009-1378": {
+            "cwe": "CWE-399",
+            "fixing_commits": {
+                "abda7c114791fa7fe95672ec7a66fc4733c40dbc": {
+                    "ssl/d1_both.c": {
+                        "565": {
+                            "Previous Commits": [
+                                "90acf770b52bdccc06e75356281780eb697ccb18",
+                                "6c61726b2af78a1985178d31e551351231b54b10",
+                                "36d16f8ee0845d932e250286e8e236580470e35b"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-0208": {
+            "cwe": "NVD-CWE-Other",
+            "fixing_commits": {
+                "4b22cce3812052fe64fc3f6d58d8cc884e3cb834": {
+                    "crypto/rsa/rsa_ameth.c": {
+                        "701": {
+                            "Previous Commits": [
+                                "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8",
+                                "af7d6b936b4020cf433a0bb20f911f9e03576e50"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "af7d6b936b4020cf433a0bb20f911f9e03576e50"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-0205": {
+            "cwe": "CWE-310",
+            "fixing_commits": {
+                "1421e0c584ae9120ca1b88098f13d6d2e90b83a3": {
+                    "ssl/s3_srvr.c": {
+                        "3059": {
+                            "Previous Commits": [
+                                "3b1fb1a0226e29c9d7c79ff7fbde21ef9cac4deb",
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-0290": {
+            "cwe": "CWE-17",
+            "fixing_commits": {
+                "77c77f0a1b9f15b869ca3342186dfbedd1119d0e": {
+                    "ssl/s3_pkt.c": {
+                        "788": {
+                            "Previous Commits": [
+                                "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8",
+                                "95783193946982d5acfc9f8d43dc25c021f39b9c"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-0732": {
+            "cwe": "CWE-320",
+            "fixing_commits": {
+                "3984ef0b72831da8b3ece4745cac4f8575b19098": {
+                    "crypto/dh/dh_key.c": {
+                        "133": {
+                            "Previous Commits": [
+                                "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8",
+                                "c62b26fdc6bb176541ec56498090ff6f2ad4a885",
+                                "dfeab0689f69c0b4bd3480ffd37a9cacc2f17d9c",
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-3737": {
+            "cwe": "CWE-125",
+            "fixing_commits": {
+                "898fb884b706aaeb283de4812340bb0bde8476dc": {
+                    "ssl/ssl.h": {
+                        "1730": {
+                            "Previous Commits": [
+                                "e4f77bf1833245d2b6aa4ce6a16c85e1cdf78589"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-6449": {
+            "cwe": "CWE-310",
+            "fixing_commits": {
+                "ca989269a2876bae79393bd54c3e72d49975fc75": {
+                    "ssl/s3_lib.c": {
+                        "4289": {
+                            "Previous Commits": [
+                                "277f8a34f4041fb9e7b00e998e079d7fecd075a9",
+                                "9472baae0d17ddf425f891a3154057356217af08"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "9472baae0d17ddf425f891a3154057356217af08"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-6303": {
+            "cwe": "CWE-787",
+            "fixing_commits": {
+                "55d83bf7c10c7b205fffa23fa7c3977491e56c07": {
+                    "crypto/mdc2/mdc2dgst.c": {
+                        "45": {
+                            "Previous Commits": [
+                                "0f113f3ee4d629ef9a4a30911b22b224772085e5",
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-2106": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "3f3582139fbb259a1c3cbb0a25236500a409bf26": {
+                    "crypto/evp/evp_enc.c": {
+                        "335": {
+                            "Previous Commits": [
+                                "0f113f3ee4d629ef9a4a30911b22b224772085e5",
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d02b48c63a58ea4367a0e905979f140b7d090f86"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2000-1254": {
+            "cwe": "CWE-310",
+            "fixing_commits": {
+                "db82b8f9bd432a59aea8e1014694e15fc457c2bb": {
+                    "crypto/rsa/rsa_gen.c": {
+                        "98": {
+                            "Previous Commits": [
+                                "dfeab0689f69c0b4bd3480ffd37a9cacc2f17d9c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "dfeab0689f69c0b4bd3480ffd37a9cacc2f17d9c"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-6302": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "e97763c92c655dcf4af2860b3abd2bc4c8a267f9": {
+                    "ssl/t1_lib.c": {
+                        "2973": {
+                            "Previous Commits": [
+                                "0f113f3ee4d629ef9a4a30911b22b224772085e5",
+                                "8a2062fefedde7957f228e274d12155ca8660d4c",
+                                "6434abbfc6ac0d5cb882844ed10fef5821039cf6"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6434abbfc6ac0d5cb882844ed10fef5821039cf6"
+                            ]
+                        },
+                        "2974": {
+                            "Previous Commits": [
+                                "0f113f3ee4d629ef9a4a30911b22b224772085e5",
+                                "c519e89f5c359b8c0f747519773284d9b6382791",
+                                "8a2062fefedde7957f228e274d12155ca8660d4c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c519e89f5c359b8c0f747519773284d9b6382791"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-0221": {
+            "cwe": "CWE-399",
+            "fixing_commits": {
+                "d3152655d5319ce883c8e3ac4b99f8de4c59d846": {
+                    "ssl/d1_both.c": {
+                        "854": {
+                            "Previous Commits": [
+                                "54ef01b54bd64fdf5820d3860f4c458a9c2fa4f0",
+                                "36d16f8ee0845d932e250286e8e236580470e35b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "36d16f8ee0845d932e250286e8e236580470e35b"
+                            ]
+                        },
+                        "855": {
+                            "Previous Commits": [
+                                "54ef01b54bd64fdf5820d3860f4c458a9c2fa4f0",
+                                "36d16f8ee0845d932e250286e8e236580470e35b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "36d16f8ee0845d932e250286e8e236580470e35b"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-1787": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "b19d8143212ae5fbc9cebfd51c01f802fabccd33": {
+                    "ssl/s3_srvr.c": {
+                        "2254": {
+                            "Previous Commits": [
+                                "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8",
+                                "c523eb98d1694afd5d73cb5fe3b521c6064c130f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c523eb98d1694afd5d73cb5fe3b521c6064c130f"
+                            ]
+                        },
+                        "2256": {
+                            "Previous Commits": [
+                                "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8",
+                                "7493bcc659a6d1cff73d7974f18a73331e978657"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7493bcc659a6d1cff73d7974f18a73331e978657"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-7052": {
+            "cwe": "CWE-476",
+            "fixing_commits": {
+                "6e629b5be45face20b4ca71c4fcbfed78b864a2e": {
+                    "crypto/x509/x509_vfy.c": {
+                        "1127": {
+                            "Previous Commits": [
+                                "325da8231c8d441e6bb7f15d1a5a23ff63c842e5",
+                                "ae5c8664e587f2445c8e4eb436cffbb64af4f6b8",
+                                "bc7535bc7fe30fbba222c316a3957da7d906603b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "bc7535bc7fe30fbba222c316a3957da7d906603b"
+                            ]
+                        },
+                        "1130": {
+                            "Previous Commits": [
+                                "325da8231c8d441e6bb7f15d1a5a23ff63c842e5"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "325da8231c8d441e6bb7f15d1a5a23ff63c842e5"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-6309": {
+            "cwe": "CWE-416",
+            "fixing_commits": {
+                "acacbfa7565c78d2273c0b2a2e5e803f44afefeb": {
+                    "ssl/statem/statem.c": {
+                        "548": {
+                            "Previous Commits": [
+                                "4b390b6c3f8df925dc92a3dd6b022baa9a2f4650"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4b390b6c3f8df925dc92a3dd6b022baa9a2f4650"
+                            ]
+                        },
+                        "549": {
+                            "Previous Commits": [
+                                "4b390b6c3f8df925dc92a3dd6b022baa9a2f4650"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4b390b6c3f8df925dc92a3dd6b022baa9a2f4650"
+                            ]
+                        },
+                        "550": {
+                            "Previous Commits": [
+                                "4b390b6c3f8df925dc92a3dd6b022baa9a2f4650"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4b390b6c3f8df925dc92a3dd6b022baa9a2f4650"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2009-3245": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "7e4cae1d2f555cbe9226b377aff4b56c9f7ddd4d": {
+                    "crypto/bn/bn_mul.c": {
+                        "1035": {
+                            "Previous Commits": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ]
+                        },
+                        "1036": {
+                            "Previous Commits": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ]
+                        },
+                        "1042": {
+                            "Previous Commits": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ]
+                        },
+                        "1043": {
+                            "Previous Commits": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6a2347ee45927c595847e797778af2031cba8e0d"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "php-src": {
+        "CVE-2014-2497": {
+            "cwe": "CWE-399",
+            "fixing_commits": {
+                "cf4753691dc55999373d1c576f62ecb298723420": {
+                    "ext/gd/libgd/gdxpm.c": {
+                        "39": {
+                            "Previous Commits": [
+                                "d29d55e772c1b3008968130402773144dcba4883",
+                                "7a8cade379e90bafca21cd983f2f5a4d84a7ff8a"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-0238": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "57225f09edd671db50137194cb83530884cb6030": {
+                    "ext/fileinfo/libmagic/cdf.c": {
+                        "900": {
+                            "Previous Commits": [
+                                "7a29c8f38677d1c7474c979836562488f6bbadec"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7a29c8f38677d1c7474c979836562488f6bbadec"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-3981": {
+            "cwe": "CWE-59",
+            "fixing_commits": {
+                "08334293f8883c2bcbb74ed10b8133672fee8706": {
+                    "acinclude.m4": {
+                        "1703": {
+                            "Previous Commits": [
+                                "a28eaf64d0795f305644542c819fa34d73e785f1"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a28eaf64d0795f305644542c819fa34d73e785f1"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-9912": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "e644aad3f9138bbb2e77520f033ba902f236b8b5": {
+                    "ext/intl/locale/locale_methods.c": {
+                        "501": {
+                            "Previous Commits": [
+                                "0d16b1516b6b9ef0c2696bc19069e4cda5aee0ea"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0d16b1516b6b9ef0c2696bc19069e4cda5aee0ea"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-3487": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "2fe5bcbeb58bb1088f9fcdb9f02599880454b602": {
+                    "ext/fileinfo/libmagic/cdf.c": {
+                        "815": {
+                            "Previous Commits": [
+                                "12cf930a403d0bbee0c40a5e93554cafd6b0895e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "12cf930a403d0bbee0c40a5e93554cafd6b0895e"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-3587": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "cba5120407fbd0735b9aac5ede2fd02bdfab46a9": {
+                    "ext/fileinfo/libmagic/cdf.c": {
+                        "823": {
+                            "Previous Commits": [
+                                "7a29c8f38677d1c7474c979836562488f6bbadec"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7a29c8f38677d1c7474c979836562488f6bbadec"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2008-0599": {
+            "cwe": "NVD-CWE-Other",
+            "fixing_commits": {
+                "183267dc2916d1bcd7673fc8285f3fc1fc414462": {
+                    "sapi/cgi/cgi_main.c": {
+                        "1104": {
+                            "Previous Commits": [
+                                "30dd6a45d31cab020dad553bb7b6d4c499b01441",
+                                "26214fc15f2882eca75371d352564d27979e6c3b",
+                                "1a4c82e0149351c530e6196b548b1cf2a95e4410",
+                                "a3bd39429ca53a1a6647c505bb82803490943ee5"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "30dd6a45d31cab020dad553bb7b6d4c499b01441"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-2331": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "4a8d8b4154334b1714e19b82b061201d41dc87d6": {
+                    "ext/zip/lib/zip_dirent.c": {
+                        "104": {
+                            "Previous Commits": [
+                                "664d102aa65af165bf25163b220424e67241369c"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-4021": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "c27f012b7a447e59d4a704688971cbfa7dddaa74": {
+                    "ext/phar/tar.c": {
+                        "428": {
+                            "Previous Commits": [
+                                "16b4d8e0e1108564fa042520171d9091af708d83"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "16b4d8e0e1108564fa042520171d9091af708d83"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-7803": {
+            "cwe": "NVD-CWE-Other",
+            "fixing_commits": {
+                "d698f0ae51f67c9cce870b09c59df3d6ba959244": {
+                    "ext/phar/util.c": {
+                        "497": {
+                            "Previous Commits": [
+                                "44cb95a53d199b7f06eedcc07f1a839ada4e795d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "44cb95a53d199b7f06eedcc07f1a839ada4e795d"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-5589": {
+            "cwe": "CWE-20",
+            "fixing_commits": {
+                "bf58162ddf970f63502837f366930e44d6a992cf": {
+                    "ext/phar/phar_object.c": {
+                        "2422": {
+                            "Previous Commits": [
+                                "95eeee9156a88eec0ddbb17cb31a74b8a36069c3",
+                                "d1eda9c8acbd6a231012f22b124fda6d7242018c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d1eda9c8acbd6a231012f22b124fda6d7242018c"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-7804": {
+            "cwe": "CWE-189",
+            "fixing_commits": {
+                "e78ac461dbefb7c4a3e9fde78d50fbc56b7b0183": {
+                    "ext/phar/dirstream.c": {
+                        "210": {
+                            "Previous Commits": [
+                                "4749457a498828e9f7919401889a991b8a9b94b5",
+                                "16b4d8e0e1108564fa042520171d9091af708d83"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "16b4d8e0e1108564fa042520171d9091af708d83"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2012-2329": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "20364bcff9f38bed83245d785cc8ec3a072e4da5": {
+                    "sapi/cgi/cgi_main.c": {
+                        "1620": {
+                            "Previous Commits": [
+                                "a95dd97752d73c213d21ce97200e64e3ff6f40f0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a95dd97752d73c213d21ce97200e64e3ff6f40f0"
+                            ]
+                        },
+                        "1623": {
+                            "Previous Commits": [
+                                "a95dd97752d73c213d21ce97200e64e3ff6f40f0"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a95dd97752d73c213d21ce97200e64e3ff6f40f0"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2014-9427": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "f9ad3086693fce680fbe246e4a45aa92edd2ac35": {
+                    "sapi/cgi/cgi_main.c": {
+                        "2432": {
+                            "Previous Commits": [
+                                "b4216e0a82f509532513a9a6bc1882b75918f341"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b4216e0a82f509532513a9a6bc1882b75918f341"
+                            ]
+                        },
+                        "2436": {
+                            "Previous Commits": [
+                                "b4216e0a82f509532513a9a6bc1882b75918f341"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b4216e0a82f509532513a9a6bc1882b75918f341"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-14884": {
+            "cwe": "CWE-476",
+            "fixing_commits": {
+                "0e097f2c96ce31b16fa371981045f224e5a37160": {
+                    "ext/standard/http_fopen_wrapper.c": {
+                        "815": {
+                            "Previous Commits": [
+                                "5146d9f8ac170d8ba7109370d732d56dc0777578",
+                                "3d6fccc08c3903129c91e32599ee1f7f525e82c2",
+                                "ce686a63de1de578f6110c9688a41ffd8a725f38",
+                                "91df221ab7d1b42b3060e99b37036e1b59a5f975",
+                                "3c95ac6b4f63dd879c2554037f374c042b80ad2d",
+                                "e1d0a147901d27bb01b0ccda315a9fdd3474e1ee"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "5146d9f8ac170d8ba7109370d732d56dc0777578"
+                            ]
+                        },
+                        "819": {
+                            "Previous Commits": [
+                                "5146d9f8ac170d8ba7109370d732d56dc0777578",
+                                "3d6fccc08c3903129c91e32599ee1f7f525e82c2",
+                                "ce686a63de1de578f6110c9688a41ffd8a725f38",
+                                "91df221ab7d1b42b3060e99b37036e1b59a5f975",
+                                "3c95ac6b4f63dd879c2554037f374c042b80ad2d",
+                                "e1d0a147901d27bb01b0ccda315a9fdd3474e1ee"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "5146d9f8ac170d8ba7109370d732d56dc0777578"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2015-5590": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "6dedeb40db13971af45276f80b5375030aa7e76f": {
+                    "ext/phar/phar.c": {
+                        "2145": {
+                            "Previous Commits": [
+                                "c6aa379d74535bf5e245fa9941b235498f987196"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c6aa379d74535bf5e245fa9941b235498f987196"
+                            ]
+                        },
+                        "2235": {
+                            "Previous Commits": [
+                                "c6aa379d74535bf5e245fa9941b235498f987196",
+                                "0d830a27ea042b1bd9b32a050e6812002b79f487"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c6aa379d74535bf5e245fa9941b235498f987196"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-3078": {
+            "cwe": "CWE-190",
+            "fixing_commits": {
+                "3b8d4de300854b3517c7acb239b84f7726c1353c": {
+                    "ext/zip/php_zip.c": {
+                        "1284": {
+                            "Previous Commits": [
+                                "c3e3c98ec666812daaaca896cf5ef758a8a6df14",
+                                "bea30846bb40e84eab19243823c5c8baa2f0137c",
+                                "664d102aa65af165bf25163b220424e67241369c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c3e3c98ec666812daaaca896cf5ef758a8a6df14"
+                            ]
+                        },
+                        "2731": {
+                            "Previous Commits": [
+                                "c3e3c98ec666812daaaca896cf5ef758a8a6df14",
+                                "bea30846bb40e84eab19243823c5c8baa2f0137c",
+                                "eaf3d32157811f6f43da084b55b34f124fc795e1",
+                                "664d102aa65af165bf25163b220424e67241369c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c3e3c98ec666812daaaca896cf5ef758a8a6df14"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-4542": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "082aecfc3a753ad03be82cf14f03ac065723ec92": {
+                    "ext/exif/exif.c": {
+                        "2968": {
+                            "Previous Commits": [
+                                "a3daf3bbe8be19e383fe81f170cb146faa694847",
+                                "e0654de5905737e4bf5e7c94dc59403da9b7394f",
+                                "b634ec9e300552ab9a56178949023842610da909",
+                                "59f332800f54e2d43f3e35db528efb117e76d79f",
+                                "3c47fb91e84d710c0f63658d1834e8cac6b49d60"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a3daf3bbe8be19e383fe81f170cb146faa694847"
+                            ]
+                        },
+                        "3211": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-7456": {
+            "cwe": "CWE-125",
+            "fixing_commits": {
+                "7a1aac3343af85b4af4df5f8844946eaa27394ab": {
+                    "ext/gd/libgd/gd_interpolation.c": {
+                        "937": {
+                            "Previous Commits": [
+                                "a7a53d369bfcf3208b445b9aa12aa8a6e114c5fd"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a7a53d369bfcf3208b445b9aa12aa8a6e114c5fd"
+                            ]
+                        },
+                        "938": {
+                            "Previous Commits": [
+                                "a7a53d369bfcf3208b445b9aa12aa8a6e114c5fd"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a7a53d369bfcf3208b445b9aa12aa8a6e114c5fd"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-6297": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "8ebdb1f5fd19cb15dd6ac7700c781ede5dcbba95": {
+                    "ext/zip/zip_stream.c": {
+                        "104": {
+                            "Previous Commits": [
+                                "3b337020fad89f0560aff3af3d0447d1ee1eaa66"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3b337020fad89f0560aff3af3d0447d1ee1eaa66"
+                            ]
+                        },
+                        "110": {
+                            "Previous Commits": [
+                                "3b337020fad89f0560aff3af3d0447d1ee1eaa66"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3b337020fad89f0560aff3af3d0447d1ee1eaa66"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ImageMagick": {
+        "CVE-2016-6823": {
+            "cwe": "CWE-190",
+            "fixing_commits": {
+                "4cc6ec8a4197d4c008577127736bf7985d632323": {
+                    "coders/bmp.c": {
+                        "1688": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-7799": {
+            "cwe": "CWE-125",
+            "fixing_commits": {
+                "a7bb158b7bedd1449a34432feb3a67c8f1873bfa": {
+                    "MagickCore/profile.c": {
+                        "2035": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-7906": {
+            "cwe": "CWE-416",
+            "fixing_commits": {
+                "90406972f108c4da71f998601b06abdc2ac6f06e": {
+                    "MagickCore/attribute.c": {
+                        "1267": {
+                            "Previous Commits": [
+                                "940942b0a7bccda8a96c21c8c5b1d37268173038"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "940942b0a7bccda8a96c21c8c5b1d37268173038"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-8862": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "aea6c6507f55632829e6432f8177a084a57c9fcc": {
+                    "coders/rle.c": {
+                        "227": {
+                            "Previous Commits": [
+                                "caf07b0f71a915d00c6667efd90a138340735eb7"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "caf07b0f71a915d00c6667efd90a138340735eb7"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-8866": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "ab2c9d6a8dd6d71b161ec9cc57a588b116b52322": {
+                    "coders/rle.c": {
+                        "227": {
+                            "Previous Commits": [
+                                "aea6c6507f55632829e6432f8177a084a57c9fcc",
+                                "caf07b0f71a915d00c6667efd90a138340735eb7"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "caf07b0f71a915d00c6667efd90a138340735eb7"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-11478": {
+            "cwe": "CWE-835",
+            "fixing_commits": {
+                "e727ff8c84eafdb012f73d6fe29db11650f73f1a": {
+                    "coders/djvu.c": {
+                        "878": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-5688": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "aecd0ada163a4d6c769cec178955d5f3e9316f2f": {
+                    "MagickCore/image.c": {
+                        "846": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-11528": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "7ede0be7c379b2a105cae9d9633727845d5458cc": {
+                    "coders/dib.c": {
+                        "622": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-11536": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "167e1538ae9818d46c9462a4273082871e35a480": {
+                    "coders/jp2.c": {
+                        "920": {
+                            "Previous Commits": [
+                                "73bbee1c22e299bd29a1f2f8e1ccec66923bcccc",
+                                "7ea349614d7582d3c7e54afc52360d8db73a8f67"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7ea349614d7582d3c7e54afc52360d8db73a8f67"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-12433": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "7beec9a7a8a5701652b313e6e94bafd36b3627dc": {
+                    "coders/pes.c": {
+                        "627": {
+                            "Previous Commits": [
+                                "787ee25e9fb0e4e0509121342371d925fe5044f8"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "787ee25e9fb0e4e0509121342371d925fe5044f8"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-12666": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "d5559407ce29f4371e5df9c1cbde65455fe5854c": {
+                    "coders/inline.c": {
+                        "319": {
+                            "Previous Commits": [
+                                "642e14ef198b90419df5bf71ad396c19b6e85809"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "642e14ef198b90419df5bf71ad396c19b6e85809"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-12667": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "bfb7915d4b2e11acb6a819e451c382dc645277db": {
+                    "coders/mat.c": {
+                        "934": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2016-10049": {
+            "cwe": "CWE-119",
+            "fixing_commits": {
+                "13db820f5e24cd993ee554e99377fea02a904e18": {
+                    "coders/rle.c": {
+                        "319": {
+                            "Previous Commits": [
+                                "2174484dfa68a594e2f9ad17f46217b6120db18d",
+                                "7131d8ff451a1d5163e7e35b7a910df80cb54fab",
+                                "e5f0042d473f820d635e2a1ba456ea41e3e04757",
+                                "b64823d5e9d6def353c863a1464867f1bf5caca5",
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7131d8ff451a1d5163e7e35b7a910df80cb54fab"
+                            ]
+                        },
+                        "322": {
+                            "Previous Commits": [
+                                "2174484dfa68a594e2f9ad17f46217b6120db18d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2174484dfa68a594e2f9ad17f46217b6120db18d"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-11188": {
+            "cwe": "CWE-834",
+            "fixing_commits": {
+                "e9728345edd0141b4724e54832103055a94708b8": {
+                    "coders/dpx.c": {
+                        "1120": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        },
+                        "1145": {
+                            "Previous Commits": [
+                                "04ea8a0176bc11af2fda9f0369a6708919652d5e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "04ea8a0176bc11af2fda9f0369a6708919652d5e"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-11505": {
+            "cwe": "CWE-834",
+            "fixing_commits": {
+                "45e53a7ad94ce3573d9997704bf32e1f3097f9c0": {
+                    "coders/png.c": {
+                        "4387": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        },
+                        "5250": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-14324": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "399631650b38eaf21c2f3c306b8b74e66be6a0d2": {
+                    "coders/mpc.c": {
+                        "572": {
+                            "Previous Commits": [
+                                "7fd419441bc7103398e313558171d342c6315f44"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7fd419441bc7103398e313558171d342c6315f44"
+                            ]
+                        },
+                        "573": {
+                            "Previous Commits": [
+                                "7fd419441bc7103398e313558171d342c6315f44"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7fd419441bc7103398e313558171d342c6315f44"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-14739": {
+            "cwe": "CWE-476",
+            "fixing_commits": {
+                "6017a80fe8327fefb77fa677d81154db2b857d1d": {
+                    "MagickCore/resample-private.h": {
+                        "58": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        },
+                        "64": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-15033": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "ef8f40689ac452398026c07da41656a7c87e4683": {
+                    "coders/yuv.c": {
+                        "214": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        },
+                        "445": {
+                            "Previous Commits": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2017-17883": {
+            "cwe": "CWE-772",
+            "fixing_commits": {
+                "b0a7241df0f889cc3158ba82774ff21fa1da87ec": {
+                    "coders/pgx.c": {
+                        "219": {
+                            "Previous Commits": [
+                                "68ea6a0257d72112016180a057ea0778460c05d4"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "68ea6a0257d72112016180a057ea0778460c05d4"
+                            ]
+                        },
+                        "220": {
+                            "Previous Commits": [
+                                "68ea6a0257d72112016180a057ea0778460c05d4"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "68ea6a0257d72112016180a057ea0778460c05d4"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-8804": {
+            "cwe": "CWE-415",
+            "fixing_commits": {
+                "f55d3a622d234e940fb99325b92c6d3df578fa9b": {
+                    "coders/ept.c": {
+                        "419": {
+                            "Previous Commits": [
+                                "151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497",
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        },
+                        "421": {
+                            "Previous Commits": [
+                                "151b66dffc9e3c2e8c4f8cdaca37ff987ca0f497",
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "3ed852eea50f9d4cd633efb8c2b054b8e33c2530"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ovirt-engine": {
+        "CVE-2018-1062": {
+            "cwe": "CWE-212",
+            "fixing_commits": {
+                "820888c4e8dfbe79dc55e1ba8e72edb0ebd88906": {
+                    "backend/manager/modules/vdsbroker/src/main/java/org/ovirt/engine/core/vdsbroker/vdsbroker/GetDeviceListVDSCommand.java": {
+                        "174": {
+                            "Previous Commits": [
+                                "831d6d4d416abdbec21ace4aeb1086fe2cb60fe3"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "831d6d4d416abdbec21ace4aeb1086fe2cb60fe3"
+                            ]
+                        }
+                    },
+                    "backend/manager/modules/vdsbroker/src/test/java/org/ovirt/engine/core/vdsbroker/vdsbroker/GetDeviceListVDSCommandTest.java": {
+                        "113": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                },
+                "d0e33ace71b7603450fc1aa7725f53dbc5458318": {
+                    "backend/manager/modules/vdsbroker/src/main/java/org/ovirt/engine/core/vdsbroker/vdsbroker/GetDeviceListVDSCommand.java": {
+                        "174": {
+                            "Previous Commits": [
+                                "831d6d4d416abdbec21ace4aeb1086fe2cb60fe3"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "831d6d4d416abdbec21ace4aeb1086fe2cb60fe3"
+                            ]
+                        }
+                    },
+                    "backend/manager/modules/vdsbroker/src/test/java/org/ovirt/engine/core/vdsbroker/vdsbroker/GetDeviceListVDSCommandTest.java": {
+                        "111": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "cxf-fediz": {
+        "CVE-2016-4464": {
+            "cwe": "CWE-284",
+            "fixing_commits": {
+                "0006581e9cacbeef46381a223e5671e524d416b6": {
+                    "plugins/core/src/main/java/org/apache/cxf/fediz/core/config/FedizContext.java": {
+                        "88": {
+                            "Previous Commits": [
+                                "d1a9c55cfd07735b882b1820e5b0ab45595a4059"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d1a9c55cfd07735b882b1820e5b0ab45595a4059"
+                            ]
+                        }
+                    },
+                    "plugins/core/src/main/java/org/apache/cxf/fediz/core/handler/SigninHandler.java": {
+                        "75": {
+                            "Previous Commits": [
+                                "2b008eacd31e1720794089226a12107a57efb969"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2b008eacd31e1720794089226a12107a57efb969"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "tikal-multijob-plugin": {
+        "CVE-2017-1000390": {
+            "cwe": "CWE-862",
+            "fixing_commits": {
+                "3e6ab85019334a5b2a438264afdebe439cfc82b4": {
+                    "src/main/java/com/tikal/jenkins/plugins/multijob/MultiJobResumeBuild.java": {
+                        "28": {
+                            "Previous Commits": [
+                                "2424cec7a099fe4392f052a754fadc28de9f8d86",
+                                "fa09157624e6661417e1b97f337c5037e85a6c84"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2424cec7a099fe4392f052a754fadc28de9f8d86"
+                            ]
+                        },
+                        "78": {
+                            "Previous Commits": [
+                                "2424cec7a099fe4392f052a754fadc28de9f8d86"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "2424cec7a099fe4392f052a754fadc28de9f8d86"
+                            ]
+                        }
+                    }
+                },
+                "2424cec7a099fe4392f052a754fadc28de9f8d86": {
+                    "src/main/java/com/tikal/jenkins/plugins/multijob/MultiJobResumeBuild.java": {
+                        "18": {
+                            "Previous Commits": [
+                                "66d187f6106940796490e71543fc47935e3494be",
+                                "fa09157624e6661417e1b97f337c5037e85a6c84"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "fa09157624e6661417e1b97f337c5037e85a6c84"
+                            ]
+                        },
+                        "27": {
+                            "Previous Commits": [
+                                "fa09157624e6661417e1b97f337c5037e85a6c84"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "fa09157624e6661417e1b97f337c5037e85a6c84"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "spring-amqp": {
+        "CVE-2017-8045": {
+            "cwe": "CWE-502",
+            "fixing_commits": {
+                "296d481f980fcbecbee01244e3644e254470a86e": {
+                    "spring-amqp/src/main/java/org/springframework/amqp/core/Message.java": {
+                        "80": {
+                            "Previous Commits": [
+                                "6d9afdfa0b15ca3ed68c26476143030be0123d25",
+                                "175080a2f4965f3e0d9ca49a138304fd679ed432",
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ]
+                        }
+                    },
+                    "src/reference/asciidoc/amqp.adoc": {
+                        "25": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                },
+                "36e55998f6352ba3498be950ccab1d5f4d0ce655": {
+                    "spring-amqp/src/main/java/org/springframework/amqp/core/Message.java": {
+                        "81": {
+                            "Previous Commits": [
+                                "6d9afdfa0b15ca3ed68c26476143030be0123d25",
+                                "175080a2f4965f3e0d9ca49a138304fd679ed432",
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ]
+                        }
+                    }
+                },
+                "6e9e00bb5bf0aa88444146db3c2eae138cc7b0a1": {
+                    "spring-amqp/src/main/java/org/springframework/amqp/core/Message.java": {
+                        "80": {
+                            "Previous Commits": [
+                                "6d9afdfa0b15ca3ed68c26476143030be0123d25",
+                                "175080a2f4965f3e0d9ca49a138304fd679ed432",
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ]
+                        }
+                    }
+                },
+                "83fe9fdec2c86a57898d56c5e109debd9d5c07d9": {
+                    "spring-amqp/src/main/java/org/springframework/amqp/core/Message.java": {
+                        "77": {
+                            "Previous Commits": [
+                                "175080a2f4965f3e0d9ca49a138304fd679ed432",
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0d08676e161afb21b4e4c62985f8804fc20c5a4b"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "spring-framework": {
+        "CVE-2015-0201": {
+            "cwe": "CWE-254",
+            "fixing_commits": {
+                "d63cfc8eebc396be009e733a81ebb4c984811f6e": {
+                    "spring-websocket/src/main/java/org/springframework/web/socket/sockjs/client/SockJsUrlInfo.java": {
+                        "36": {
+                            "Previous Commits": [
+                                "e82df99a22b7f511fc8e2c92a8a206e06d16bd62"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "e82df99a22b7f511fc8e2c92a8a206e06d16bd62"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-4152": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "7576274874deeccb6da6b09a8d5bd62e8b5538b7": {
+                    "spring-web/src/main/java/org/springframework/http/converter/xml/Jaxb2CollectionHttpMessageConverter.java": {
+                        "229": {
+                            "Previous Commits": [
+                                "ed3823b045fd19cdb801609eb034c93dd4d75c3f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ed3823b045fd19cdb801609eb034c93dd4d75c3f"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2013-7315": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "7576274874deeccb6da6b09a8d5bd62e8b5538b7": {
+                    "spring-web/src/main/java/org/springframework/http/converter/xml/Jaxb2CollectionHttpMessageConverter.java": {
+                        "229": {
+                            "Previous Commits": [
+                                "ed3823b045fd19cdb801609eb034c93dd4d75c3f"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ed3823b045fd19cdb801609eb034c93dd4d75c3f"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "undertow": {
+        "CVE-2017-2670": {
+            "cwe": "CWE-835",
+            "fixing_commits": {
+                "9bfe9fbbb595d51157b61693f072895f7dbadd1d": {
+                    "core/src/main/java/io/undertow/server/protocol/framed/AbstractFramedStreamSourceChannel.java": {
+                        "288": {
+                            "Previous Commits": [
+                                "dc90bde646161a806d6867281adb502d51589630",
+                                "12c6e6f3841f5417f0dc82febe953c3a6656cdaf",
+                                "cebf8cbd070aed1f4fcb9e3fd316b2250f2940a9",
+                                "5c70da2d5de558852171a745eb924b2be5b98412",
+                                "e5761cc6b22bdd881d09598d4b0c33444fd0e6aa",
+                                "552af31726e84c89134aeab2ba857bc90691639c",
+                                "b6e3196e98e43d597221e901cb681efd5af442c8"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b6e3196e98e43d597221e901cb681efd5af442c8"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-1114": {
+            "cwe": "CWE-400",
+            "fixing_commits": {
+                "7f22aa0090296eb00280f878e3731bb71d40f9eb": {
+                    "core/src/main/java/io/undertow/server/handlers/resource/URLResource.java": {
+                        "91": {
+                            "Previous Commits": [
+                                "87f4fb41fcd85d9c517a6df1d17d35ffc78aa37d",
+                                "ca37f8df602a5d65d476a69fbc8ab3177565d538"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ca37f8df602a5d65d476a69fbc8ab3177565d538"
+                            ]
+                        }
+                    }
+                },
+                "882d5884f2614944a0c2ae69bafd9d13bfc5b64a": {
+                    "core/src/main/java/io/undertow/server/handlers/resource/URLResource.java": {
+                        "91": {
+                            "Previous Commits": [
+                                "177efba2518e46e6d3ebbffdac25889708991b94",
+                                "ca37f8df602a5d65d476a69fbc8ab3177565d538"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ca37f8df602a5d65d476a69fbc8ab3177565d538"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "wildfly-core": {
+        "CVE-2018-10862": {
+            "cwe": "CWE-22",
+            "fixing_commits": {
+                "40996ae6d5d3b6c1602a15f96b86a8d8a39b53eb": {
+                    "deployment-repository/src/main/java/org/jboss/as/repository/PathUtil.java": {
+                        "150": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "322": {
+                            "Previous Commits": [
+                                "0dcfad067a64c844b70723611a1772078e0afd45"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0dcfad067a64c844b70723611a1772078e0afd45"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "cayenne": {
+        "CVE-2018-11758": {
+            "cwe": "CWE-611",
+            "fixing_commits": {
+                "6fc896b65ed871be33dcf453cde924bf73cf83db": {
+                    "cayenne-server/src/main/java/org/apache/cayenne/util/Util.java": {
+                        "354": {
+                            "Previous Commits": [
+                                "6cdfdbbcb94f217b1e486992561f6b8febda5f84",
+                                "fc186f50392bf8c804b1d314971c92efa5f52fc3"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "fc186f50392bf8c804b1d314971c92efa5f52fc3"
+                            ]
+                        },
+                        "357": {
+                            "Previous Commits": [
+                                "6cdfdbbcb94f217b1e486992561f6b8febda5f84",
+                                "fc186f50392bf8c804b1d314971c92efa5f52fc3"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "fc186f50392bf8c804b1d314971c92efa5f52fc3"
+                            ]
+                        },
+                        "359": {
+                            "Previous Commits": [
+                                "6cdfdbbcb94f217b1e486992561f6b8febda5f84",
+                                "fc186f50392bf8c804b1d314971c92efa5f52fc3"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "fc186f50392bf8c804b1d314971c92efa5f52fc3"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "commons-fileupload": {
+        "CVE-2014-0050": {
+            "cwe": "CWE-264",
+            "fixing_commits": {
+                "c61ff05b3241cb14d989b67209e57aa71540417a": {
+                    "src/main/java/org/apache/commons/fileupload/FileUploadBase.java": {
+                        "994": {
+                            "Previous Commits": [
+                                "684984971e95ac0dff142934323d02df77168126"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "684984971e95ac0dff142934323d02df77168126"
+                            ]
+                        }
+                    },
+                    "src/main/java/org/apache/commons/fileupload/MultipartStream.java": {
+                        "334": {
+                            "Previous Commits": [
+                                "1a5c690ecf9c1f90634b758fdae02766507d3d5b",
+                                "79eb7c40afe26becdc89421d07b21802ff7614b8",
+                                "d423dbce722380807f3c6cc26e5c3758937b0234"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d423dbce722380807f3c6cc26e5c3758937b0234"
+                            ]
+                        }
+                    },
+                    "src/test/java/org/apache/commons/fileupload/MultipartStreamTest.java": {
+                        "41": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "karaf": {
+        "CVE-2018-11787": {
+            "cwe": "CWE-287",
+            "fixing_commits": {
+                "434e52502528e91e20d2f87cec7732f1e6e554c2": {
+                    "webconsole/features/src/main/java/org/apache/karaf/webconsole/features/Activator.java": {
+                        "45": {
+                            "Previous Commits": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ]
+                        }
+                    },
+                    "webconsole/gogo/src/main/java/org/apache/karaf/webconsole/gogo/Activator.java": {
+                        "44": {
+                            "Previous Commits": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ]
+                        }
+                    },
+                    "webconsole/instance/src/main/java/org/apache/karaf/webconsole/instance/Activator.java": {
+                        "44": {
+                            "Previous Commits": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ]
+                        }
+                    }
+                },
+                "cfa213ad680ded70b70bf0c648891a06386ef632": {
+                    "webconsole/features/src/main/java/org/apache/karaf/webconsole/features/Activator.java": {
+                        "45": {
+                            "Previous Commits": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ]
+                        }
+                    },
+                    "webconsole/gogo/src/main/java/org/apache/karaf/webconsole/gogo/Activator.java": {
+                        "44": {
+                            "Previous Commits": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ]
+                        }
+                    },
+                    "webconsole/instance/src/main/java/org/apache/karaf/webconsole/instance/Activator.java": {
+                        "44": {
+                            "Previous Commits": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "f032ce95d41c50e01eb785ecd921eedef9b40d9e"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "opentsdb": {
+        "CVE-2018-12972": {
+            "cwe": "CWE-78",
+            "fixing_commits": {
+                "a6a9ec4bc8a526951bc25bb19a145782bafaa8b0": {
+                    "src/query/expression/ExpressionIterator.java": {
+                        "341": {
+                            "Previous Commits": [
+                                "6aaf5656d0128e217d3efda1d80685d7ea837bdb",
+                                "35717b127ef9cee78918bbdf04558c9564c9555d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "35717b127ef9cee78918bbdf04558c9564c9555d"
+                            ]
+                        },
+                        "343": {
+                            "Previous Commits": [
+                                "6aaf5656d0128e217d3efda1d80685d7ea837bdb",
+                                "35717b127ef9cee78918bbdf04558c9564c9555d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "35717b127ef9cee78918bbdf04558c9564c9555d"
+                            ]
+                        },
+                        "468": {
+                            "Previous Commits": [
+                                "35717b127ef9cee78918bbdf04558c9564c9555d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "35717b127ef9cee78918bbdf04558c9564c9555d"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "spring-data-jpa": {
+        "CVE-2016-6652": {
+            "cwe": "CWE-89",
+            "fixing_commits": {
+                "b8e7fecccc7dc8edcabb4704656a7abe6352c08f": {
+                    "src/main/java/org/springframework/data/jpa/repository/query/QueryUtils.java": {
+                        "232": {
+                            "Previous Commits": [
+                                "4c65ad1df6ea281036b5d35c25473a57f0bc3ac0",
+                                "a9cfe73511342c7f7d95a591bbf5ca1e7a8c1e86",
+                                "b291a5f5f9928491567b3cb1b4a78d105c54af82"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b291a5f5f9928491567b3cb1b4a78d105c54af82"
+                            ]
+                        },
+                        "249": {
+                            "Previous Commits": [
+                                "a9cfe73511342c7f7d95a591bbf5ca1e7a8c1e86"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "a9cfe73511342c7f7d95a591bbf5ca1e7a8c1e86"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "spring-security": {
+        "CVE-2018-15801": {
+            "cwe": "CWE-345",
+            "fixing_commits": {
+                "c70b65c5df0e170a2d34d812b83db0b7bc71ea25": {
+                    "oauth2/oauth2-jose/src/main/java/org/springframework/security/oauth2/jwt/JwtIssuerValidator.java": {
+                        "40": {
+                            "Previous Commits": [
+                                "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+                            ]
+                        },
+                        "51": {
+                            "Previous Commits": [
+                                "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+                            ]
+                        },
+                        "66": {
+                            "Previous Commits": [
+                                "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7c524aa0c8eb814fc9b86caca8cf290e2fcd9330"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "vertx-web": {
+        "CVE-2018-12540": {
+            "cwe": "CWE-352",
+            "fixing_commits": {
+                "f42b193b15a29b772fc576b2d0f2497e7474a7e9": {
+                    "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/CSRFHandlerImpl.java": {
+                        "109": {
+                            "Previous Commits": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ]
+                        },
+                        "111": {
+                            "Previous Commits": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ]
+                        },
+                        "171": {
+                            "Previous Commits": [
+                                "341ecefb8db8d99918c8a69fe57436f72bac509a",
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ]
+                        }
+                    }
+                },
+                "98891b1d9e022b467a3e4674aca4d1889849b1d5": {
+                    "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/CSRFHandlerImpl.java": {
+                        "109": {
+                            "Previous Commits": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ]
+                        },
+                        "111": {
+                            "Previous Commits": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ]
+                        },
+                        "171": {
+                            "Previous Commits": [
+                                "341ecefb8db8d99918c8a69fe57436f72bac509a",
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "85de7938e83ff38205e7f2f0e78fcbc808241554"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-12544": {
+            "cwe": "CWE-611",
+            "fixing_commits": {
+                "d814d22ade14bafec47c4447a4ba9bff090f05e8": {
+                    "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java": {
+                        "26": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "33": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "45": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "48": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                },
+                "ac8692c618d6180a9bc012a2ac8dbec821b1a973": {
+                    "vertx-web-api-contract/src/main/java/io/vertx/ext/web/api/validation/impl/XMLTypeValidator.java": {
+                        "26": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ]
+                        },
+                        "33": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ]
+                        },
+                        "45": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ]
+                        },
+                        "48": {
+                            "Previous Commits": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "92ce562efc3bdc61fb5956309f9a69ca820f6a1e"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-12542": {
+            "cwe": "CWE-22",
+            "fixing_commits": {
+                "57a65dce6f4c5aa5e3ce7288685e7f3447eb8f3b": {
+                    "vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.java": {
+                        "138": {
+                            "Previous Commits": [
+                                "3282b2fbdf06ac428f43c20275fd6dcc8f6a011a",
+                                "d867369f00c2f4db24798bd023cddc37d4617a54"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "d867369f00c2f4db24798bd023cddc37d4617a54"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "brooklyn-server": {
+        "CVE-2016-8744": {
+            "cwe": "CWE-502",
+            "fixing_commits": {
+                "3ae4a4d156341a53e54a2fe07192f46b15763d06": {
+                    "utils/common/src/main/java/org/apache/brooklyn/util/yaml/Yamls.java": {
+                        "96": {
+                            "Previous Commits": [
+                                "c54b7156a6c1acfd8e1c872c1a5199a39e922927"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "155": {
+                            "Previous Commits": [
+                                "c54b7156a6c1acfd8e1c872c1a5199a39e922927"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "162": {
+                            "Previous Commits": [
+                                "c54b7156a6c1acfd8e1c872c1a5199a39e922927"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "539": {
+                            "Previous Commits": [
+                                "c54b7156a6c1acfd8e1c872c1a5199a39e922927"
+                            ],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "geronimo": {
+        "CVE-2013-1777": {
+            "cwe": "CWE-94",
+            "fixing_commits": {
+                "ee031c5e62b0d358250d06c2aa6722518579a6c5": {
+                    "framework/modules/geronimo-jmx-remoting/src/main/java/org/apache/geronimo/jmxremoting/JMXConnector.java": {
+                        "195": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "209": {
+                            "Previous Commits": [
+                                "b60bf0a205e0257cb3279b08fb6c8d48bc7ce67a"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b60bf0a205e0257cb3279b08fb6c8d48bc7ce67a"
+                            ]
+                        }
+                    },
+                    "framework/modules/geronimo-jmx-remoting/src/main/java/org/apache/geronimo/jmxremoting/JMXSecureConnector.java": {
+                        "142": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "160": {
+                            "Previous Commits": [
+                                "b60bf0a205e0257cb3279b08fb6c8d48bc7ce67a"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "b60bf0a205e0257cb3279b08fb6c8d48bc7ce67a"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ccm-plugin": {
+        "CVE-2018-1000054": {
+            "cwe": "CWE-918",
+            "fixing_commits": {
+                "066cb43b4413b3490d822ec8b8a32072ebd213ca": {
+                    "pom.xml": {
+                        "73": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    },
+                    "src/main/java/hudson/plugins/ccm/parser/CcmParser.java": {
+                        "87": {
+                            "Previous Commits": [
+                                "c2e6c2dfce058c538d0bb2804c8f2496ac8eef12",
+                                "0bdbebe1b3d73341bf67051986aec66944aee928"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0bdbebe1b3d73341bf67051986aec66944aee928"
+                            ]
+                        },
+                        "88": {
+                            "Previous Commits": [
+                                "c2e6c2dfce058c538d0bb2804c8f2496ac8eef12",
+                                "0bdbebe1b3d73341bf67051986aec66944aee928"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0bdbebe1b3d73341bf67051986aec66944aee928"
+                            ]
+                        },
+                        "89": {
+                            "Previous Commits": [
+                                "c2e6c2dfce058c538d0bb2804c8f2496ac8eef12",
+                                "0bdbebe1b3d73341bf67051986aec66944aee928"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "0bdbebe1b3d73341bf67051986aec66944aee928"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "google-play-android-publisher-plugin": {
+        "CVE-2018-1000109": {
+            "cwe": "CWE-863",
+            "fixing_commits": {
+                "f81b058289caf3332ae40d599a36a3665b1fa13c": {
+                    "src/main/java/org/jenkinsci/plugins/googleplayandroidpublisher/GooglePlayBuildStepDescriptor.java": {
+                        "31": {
+                            "Previous Commits": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ]
+                        },
+                        "32": {
+                            "Previous Commits": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ]
+                        },
+                        "39": {
+                            "Previous Commits": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ]
+                        },
+                        "41": {
+                            "Previous Commits": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ca45adbe672224e24bef9cc216e9fbf04a6d118d"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "mercurial-plugin": {
+        "CVE-2018-1000112": {
+            "cwe": "CWE-863",
+            "fixing_commits": {
+                "54b4f82e80c89d51b12bc64258f6b59e98b0c16a": {
+                    "src/main/java/hudson/plugins/mercurial/MercurialStatus.java": {
+                        "45": {
+                            "Previous Commits": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ]
+                        },
+                        "53": {
+                            "Previous Commits": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ]
+                        },
+                        "54": {
+                            "Previous Commits": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ]
+                        },
+                        "55": {
+                            "Previous Commits": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "df5d889792a9ed9af8f42b4a8142bf0a2224058c"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "onos": {
+        "CVE-2018-1999020": {
+            "cwe": "CWE-22",
+            "fixing_commits": {
+                "4b19da6ce94de4865a365c200d6e8169ffb2184f": {
+                    "core/common/src/main/java/org/onosproject/common/app/ApplicationArchive.java": {
+                        "242": {
+                            "Previous Commits": [
+                                "62ad95f3f1b7dfab11ba291dc25eb8c95d80dcc8"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "62ad95f3f1b7dfab11ba291dc25eb8c95d80dcc8"
+                            ]
+                        },
+                        "356": {
+                            "Previous Commits": [
+                                "02aeb0339f584153798906c5f3a1c2809ead511e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "02aeb0339f584153798906c5f3a1c2809ead511e"
+                            ]
+                        },
+                        "440": {
+                            "Previous Commits": [
+                                "6cc7488d9423a18ba5454ec88c2a4a2b8ec4383d"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "6cc7488d9423a18ba5454ec88c2a4a2b8ec4383d"
+                            ]
+                        },
+                        "502": {
+                            "Previous Commits": [
+                                "02aeb0339f584153798906c5f3a1c2809ead511e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "02aeb0339f584153798906c5f3a1c2809ead511e"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "nifi": {
+        "CVE-2018-1309": {
+            "cwe": "CWE-611",
+            "fixing_commits": {
+                "28067a29fd13cdf8e21b440fc65c6dd67872522f": {
+                    "nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/SplitXml.java": {
+                        "178": {
+                            "Previous Commits": [
+                                "ee9bd94082cb27694e94b6bd5907b52a641e86d9",
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ]
+                        },
+                        "179": {
+                            "Previous Commits": [
+                                "ee9bd94082cb27694e94b6bd5907b52a641e86d9",
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ]
+                        },
+                        "181": {
+                            "Previous Commits": [
+                                "ee9bd94082cb27694e94b6bd5907b52a641e86d9",
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ]
+                        },
+                        "182": {
+                            "Previous Commits": [
+                                "ee9bd94082cb27694e94b6bd5907b52a641e86d9",
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ]
+                        },
+                        "183": {
+                            "Previous Commits": [
+                                "ee9bd94082cb27694e94b6bd5907b52a641e86d9",
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "4d998c12c95a6e5ce3d66c0d861e75e33b5cf013"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "CVE-2018-17192": {
+            "cwe": "CWE-1021",
+            "fixing_commits": {
+                "dbf259508c2b8e176d8cb837177aaadbf44f0670": {
+                    "nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-jetty/src/main/java/org/apache/nifi/web/server/JettyServer.java": {
+                        "1036": {
+                            "Previous Commits": [
+                                "ac8e57259f8e4d8183d938f46a28f3c73b595940"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "ac8e57259f8e4d8183d938f46a28f3c73b595940"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "guava": {
+        "CVE-2018-10237": {
+            "cwe": "CWE-502",
+            "fixing_commits": {
+                "f89ece5721b2f637fe754937ff1f3c86d80bb196": {
+                    "android/guava/src/com/google/common/util/concurrent/AtomicDoubleArray.java": {
+                        "252": {
+                            "Previous Commits": [
+                                "9b94fb3965c6869b0ac47420958a4bbae0b2d54c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "9b94fb3965c6869b0ac47420958a4bbae0b2d54c"
+                            ]
+                        },
+                        "256": {
+                            "Previous Commits": [
+                                "9b94fb3965c6869b0ac47420958a4bbae0b2d54c"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "9b94fb3965c6869b0ac47420958a4bbae0b2d54c"
+                            ]
+                        }
+                    },
+                    "guava-gwt/src/com/google/common/collect/CompoundOrdering_CustomFieldSerializer.java": {
+                        "39": {
+                            "Previous Commits": [
+                                "8f203c48cbbfe47569d8101a12a8fc9384e09674"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "8f203c48cbbfe47569d8101a12a8fc9384e09674"
+                            ]
+                        }
+                    },
+                    "guava/src/com/google/common/util/concurrent/AtomicDoubleArray.java": {
+                        "252": {
+                            "Previous Commits": [
+                                "9b1de11918c7e17b02c883365b1d13532988ee05"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "9b1de11918c7e17b02c883365b1d13532988ee05"
+                            ]
+                        },
+                        "256": {
+                            "Previous Commits": [
+                                "9b1de11918c7e17b02c883365b1d13532988ee05"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "9b1de11918c7e17b02c883365b1d13532988ee05"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "spring-cloud-sso-connector": {
+        "CVE-2018-1256": {
+            "cwe": "NVD-CWE-noinfo",
+            "fixing_commits": {
+                "ef647a2acf2363c6018e8543d665ac8862593372": {
+                    "src/main/java/io/pivotal/spring/cloud/IssuerCheckConfiguration.java": {
+                        "16": {
+                            "Previous Commits": [
+                                "c594317337457a7f19166244f6acc66b476be856",
+                                "b18e916048900afd4246b86cc0854197291da4f6"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c594317337457a7f19166244f6acc66b476be856"
+                            ]
+                        }
+                    },
+                    "src/main/java/io/pivotal/spring/cloud/SsoServiceCredentialsListener.java": {
+                        "38": {
+                            "Previous Commits": [
+                                "c594317337457a7f19166244f6acc66b476be856"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "c594317337457a7f19166244f6acc66b476be856"
+                            ]
+                        }
+                    },
+                    "src/test/java/io/pivotal/spring/cloud/IssuerCheckConfigurationTest.java": {
+                        "22": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        },
+                        "23": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    },
+                    "src/test/java/io/pivotal/spring/cloud/SsoServiceCredentialsListenerTest.java": {
+                        "51": {
+                            "Previous Commits": [],
+                            "Vulnerability Introducing Commit": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "junit-plugin": {
+        "CVE-2018-1000056": {
+            "cwe": "CWE-918",
+            "fixing_commits": {
+                "15f39fc49d9f25bca872badb48e708a8bb815ea7": {
+                    "src/main/java/hudson/tasks/junit/XMLEntityResolver.java": {
+                        "70": {
+                            "Previous Commits": [
+                                "96fcdfa846b1868b6fd4f6146042eb2cc42d3400",
+                                "50869a1742b887e134a3a684d4c1dbf90ae6b9a9"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "50869a1742b887e134a3a684d4c1dbf90ae6b9a9"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "monitoring-plugin": {
+        "CVE-2014-3678": {
+            "cwe": "CWE-79",
+            "fixing_commits": {
+                "f0f6aeef2032696c97d4b015dd51fa2b841b0473": {
+                    "src/main/java/org/jvnet/hudson/plugins/monitoring/HudsonMonitoringFilter.java": {
+                        "72": {
+                            "Previous Commits": [
+                                "95f116cece2df944ff0d004f044f4af557cdcf9e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "95f116cece2df944ff0d004f044f4af557cdcf9e"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "sonarqube": {
+        "CVE-2018-19413": {
+            "cwe": "CWE-200",
+            "fixing_commits": {
+                "7b567ba3d15ed7dd0b0bba0330686487e35af85c": {
+                    "server/sonar-server/src/main/java/org/sonar/server/user/ws/SearchAction.java": {
+                        "153": {
+                            "Previous Commits": [
+                                "a124513d1f1ec3940f39e326802c4ad0c5cf1ddc",
+                                "90613366ab07018248f7c2974367bcb6afd37499"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "90613366ab07018248f7c2974367bcb6afd37499"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "retrofit": {
+        "CVE-2018-1000850": {
+            "cwe": "CWE-22",
+            "fixing_commits": {
+                "b9a7f6ad72073ddd40254c0058710e87a073047d": {
+                    "retrofit/src/main/java/retrofit2/RequestBuilder.java": {
+                        "94": {
+                            "Previous Commits": [
+                                "01d6fb1a133cea6fac18f2ef1ecab1cbee86b569",
+                                "a9c0512fa6f88933702bf0e12243f5a584c01f66",
+                                "bf02efdf30c70261714eddbbed1ecec25c8746ca",
+                                "f15eee44eda9750b9d1341ff0801385426775e1f",
+                                "16bca3e7afe22e6868315f3a6d083464f5b082bf",
+                                "7ddaabb80d098909e3c809c865f9938d8a6eb18e"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "7ddaabb80d098909e3c809c865f9938d8a6eb18e"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "umlet": {
+        "CVE-2018-1000548": {
+            "cwe": "CWE-611",
+            "fixing_commits": {
+                "e1c4cc6ae692cc8d1c367460dbf79343e996f9bd": {
+                    "umlet-swing/src/main/java/com/baselet/diagram/io/DiagramFileHandler.java": {
+                        "249": {
+                            "Previous Commits": [
+                                "d2a230ec9ab515fecc25650a5c5a2e4ce57a93ee",
+                                "bc754fc8927f541bf3ff3e7c2889735641ae8e55"
+                            ],
+                            "Vulnerability Introducing Commit": [
+                                "bc754fc8927f541bf3ff3e7c2889735641ae8e55"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

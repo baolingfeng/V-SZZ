@@ -1,0 +1,32 @@
+
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_all.json conf/agszz.yml /home/luca/szz/cloned
+
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_all.json conf/bszz.yml /home/luca/szz/cloned
+
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_all.json conf/lszz.yml /home/luca/szz/cloned
+
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_all.json conf/maszz.yml /home/luca/szz/cloned
+
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_all.json conf/raszz.yml /home/luca/szz/cloned
+
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_all.json conf/rszz.yml /home/luca/szz/cloned
+
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_all.json conf/pdszz.yml /home/luca/szz/cloned
+
+
+Base (B-SZZ), Annotation graph (AG-SZZ), Meta-Change-Aware-SZZ (MA-SZZ), Recent-SZZ (R-SZZ), Large-SZZ (L-SZZ), PyDriller, OpenSZZ, SZZUnleashed
+
+
+screen -r unleashed
+ruby adapter/src/main.rb /home/luca/szz/pyszz/data/langs_only/bugfix_commits_issues_only.json /home/luca/szz/cloned 20
+
+screen -r szzunleashed
+running ruby since several days
+
+screen -r openszz
+
+screen -r raszz
+
+screen -r ra
+python3 main.py /home/luca/szz/pyszz/data/langs_only/bugfix_commits_issues_only.json conf/raszz.yml /home/luca/szz/cloned
+

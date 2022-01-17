@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    code-assertions (1.1.2)
+      sourcify (~> 0.5.0, >= 0.5.0)
+    crass (1.0.6)
+    file-tail (1.2.0)
+      tins (~> 1.0)
+    mini_portile2 (2.4.0)
+    minitest (5.14.0)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    nokogumbo (2.0.2)
+      nokogiri (~> 1.8, >= 1.8.4)
+    ruby2ruby (2.4.4)
+      ruby_parser (~> 3.1)
+      sexp_processor (~> 4.6)
+    ruby_parser (3.14.2)
+      sexp_processor (~> 4.9)
+    sanitize (5.2.1)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.8.0)
+      nokogumbo (~> 2.0)
+    sexp_processor (4.15.0)
+    sourcify (0.5.0)
+      file-tail (>= 1.0.5)
+      ruby2ruby (>= 1.2.5)
+      ruby_parser (>= 2.0.5)
+      sexp_processor (>= 3.0.5)
+    sync (0.5.0)
+    tins (1.25.0)
+      sync
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  code-assertions
+  minitest
+  nokogiri
+  sanitize
+
+BUNDLED WITH
+   2.1.4

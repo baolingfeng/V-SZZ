@@ -1,0 +1,122 @@
+<!doctype html>
+<title>Vulnerability Fixing Commits</title>
+<link href="{{ url_for('static',filename='tabulator.min.css') }}" rel="stylesheet">
+<script type="text/javascript" src="{{ url_for('static',filename='tabulator.min.js') }}"></script>
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+<style>
+    .customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .customers td, .customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    .customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    .customers tr:hover {background-color: #ddd;}
+    
+    .customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
+
+<div class="w3-xlarge bold-text header">Vulnerability Fixing Commits</div> 
+
+<div id="example-table"></div>
+
+<!-- {% for playlist in playlists %}
+    <button class="collapsible">
+        <a href="https://www.youtube.com/playlist?list={{playlist['playlist_id']}}" target="_blank">
+            {% if playlist['playlist_title'] is none %}
+                Playlist {{loop.index0}}
+            {% else %}
+                {{playlist['playlist_title']}}
+            {% endif %}
+        </a>
+    </button>
+    <div class="content">
+            <table class="customers">
+                    {% for video in playlist['videos'] %}
+                    <tr>
+                        <td><a href='/video?v={{video.0}}' target="_blank">{{video.1}}</a></td>
+                    </tr>
+                    {% endfor %}
+            </table>
+    </div>
+{% endfor %} -->
+
+
+<script>
+
+function isNumeric(str) {
+  if (typeof str != "string") return false // we only process strings!  
+  return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
+         !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
+}
+
+function numberHeaderFilter(headerValue, rowValue, rowData, filterParams){
+    //headerValue - the value of the header filter element
+    //rowValue - the value of the column in this row
+    //rowData - the data for the row being filtered
+    //filterParams - params object passed to the headerFilterFuncParams property
+    if(headerValue.trim() == "")
+        return true
+
+    if (isNumeric(headerValue)){
+        return parseInt(rowValue) == parseInt(headerValue)
+    }
+
+    return true;
+    // idx1 = headerValue.indexOf('&')
+    
+
+    // return rowData.name == filterParams.name && rowValue < headerValue; //must return a boolean, true if it passes the filter.
+}
+
+var project_type = '{{project_type}}'
+
+var table = new Tabulator("#example-table", {
+ 	// height:800, // set height of table (in CSS or here), this enables the Virtual DOM and improves render speed dramatically (can be any valid css height value)
+ 	// data:tabledata, //assign data to table
+    ajaxURL:'/cve_data?project_type='+project_type,
+    ajaxConfig:"POST", //ajax HTTP request type
+    ajaxContentType:"json", // send parameters to the server as a JSON encoded string
+    ajaxResponse:function(url, params, response){
+        
+        return response.table_data; 
+    },
+ 	layout:"fitColumns", //fit columns to width of table (optional)
+ 	columns:[ //Define Table Columns
+	 	{title:"CVE ID", field:"cve_id", formatter:"link",headerFilter:true, formatterParams:{
+             url:function(cell){return '/vulfixingcommit?project='+cell.getData().project+"&cve_id="+cell.getData().cve_id+"&commit="+cell.getData().fixing_commit_id+"&project_type="+project_type},
+             label:function(cell){return cell.getData().cve_id}
+             }
+        },
+	 	{title:"Project", field:"project", hozAlign:"left", headerFilter:true},
+	 	{title:"CWE", field:"cwe", headerFilter:true},
+	 	{title:"Fixing Commit", field:"fixing_commit_id", hozAlign:"left", formatter:"link", formatterParams:{
+             url:function(cell){return cell.getData().project_url + '/commit/' + cell.getData().fixing_commit_id},
+             label:function(cell){return cell.getData().fixing_commit_id.substr(0,6)}
+             }
+            },
+        {title:"#ChangedFile", field:"num_src_file", hozAlign:"left"},
+        {title:"#DeletedLine", field:"num_del_line", hozAlign:"left", sorter:"number", headerFilter:true, headerFilterFunc:numberHeaderFilter},
+        {title:"#AddedLine", field:"num_add_line", hozAlign:"left"},
+        {title:'Labeled', field:"has_annotated", hozAlign:"left", headerFilter:true}
+ 	],
+ 	rowClick:function(e, row){ //trigger an alert message when the row is clicked
+ 		// alert("Row " + row.getData().id + " Clicked!!!!");
+ 	},
+    pagination:"local", 
+    paginationSize: 20
+});
+</script>

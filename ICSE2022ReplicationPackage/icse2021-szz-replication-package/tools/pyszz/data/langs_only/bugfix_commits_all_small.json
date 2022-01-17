@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3,
+    "repo_name": "DemocracyClub/yournextrepresentative",
+    "fix_commit_hash": "0722309a9c242aac28d2cb33798abbd18b233aa0",
+    "bug_commit_hash": [
+      "2574243a39d90a2673cf56647c524e268d7f169e"
+    ],
+    "best_scenario_issue_date": "2017-02-11T12:08:37",
+    "language": [
+      "py"
+    ]
+  },
+  {
+    "id": 4,
+    "repo_name": "ahobson/ruby-pcap",
+    "fix_commit_hash": "0ad41d0684c2ec4c2a6b604f7aafbaf9f0459dcc",
+    "bug_commit_hash": [
+      "272f03ff3b5bf79829f80c2febd004904d64006e"
+    ],
+    "best_scenario_issue_date": "2011-05-31T21:05:04",
+    "language": [
+      "rb"
+    ]
+  },
+  {
+    "id": 10,
+    "repo_name": "SimpleServer/SimpleServer",
+    "fix_commit_hash": "8b16295318cd85c55b04e962479de1c6532a6759",
+    "bug_commit_hash": [
+      "cfbce4351327f0f1a52ac2161dcbf49a0b31dad4"
+    ],
+    "best_scenario_issue_date": "2011-06-16T14:21:29",
+    "language": [
+      "java"
+    ]
+  }
+]

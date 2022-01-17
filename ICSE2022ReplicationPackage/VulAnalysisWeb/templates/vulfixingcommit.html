@@ -1,0 +1,245 @@
+<!doctype html>
+<title>Vulnerability Fixing Commit</title>
+
+<script type="text/javascript" src="{{ url_for('static',filename='jquery-1.9.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='jquery-ui.js') }}"></script>
+
+<link href="{{ url_for('static',filename='tabulator.min.css') }}" rel="stylesheet">
+<script type="text/javascript" src="{{ url_for('static',filename='tabulator.min.js') }}"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html-ui.min.js"></script>
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+<style>
+    .customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .customers td, .customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    .customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    .customers tr:hover {background-color: #ddd;}
+    
+    .customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
+<div>
+    <span class="w3-large bold-text">Project:</span> 
+    <span class="w3-large"><a href="{{record['project_url']}}">{{record['project']}}</a></span> 
+</div>
+<br>
+<hr>
+
+<div> 
+    <span class="w3-large bold-text">CVE: </span>
+    <span class="w3-large"><a href="https://nvd.nist.gov/vuln/detail/{{record['cve_id']}}">{{record['cve_id']}}</a></span> 
+    <div class="w3-large">{{record['cve_desc']}}</div> 
+</div> 
+<br>
+<hr>
+
+<div> 
+    <span class="w3-large bold-text">CWE: </span>
+    <span class="w3-large">{{record['cwe']}}</span> 
+    <div class="w3-large">{{record['cwe_desc']}}</div> 
+</div> 
+<br>
+<hr>
+
+<div>
+    <span class="w3-large bold-text">Commit: </span>
+    <span class="w3-large"><a href="{{record['project_url']}}/commit/{{record['commit_id']}}">{{record['commit_id']}}</a></span> 
+    <div class="w3-large">{{record['fix_detail']['commit_message']}}</div>
+</div>
+<br>
+<hr>
+
+<div>
+    <span class="w3-large">Modified Files: </span>
+    <span class="w3-large"><select id="files"></select> </span>
+    <span class="w3-large">Deleted Line: </span>
+    <span class="w3-large"><select id="lines"></select> </span>
+    <button class="w3-large bold-text" id="blameBtn">Git Blame</button>
+</div>
+<fieldset id="Vulnerability">
+    <legend class="w3-large bold-text">Vulnerability Type</legend>
+    <select id="vultype">
+        <option value="intrinsic">Intrinsic Vulnerability</option>    
+        <option value="extrinsic">Extrinsic Vulnerability</option>    
+    </select>
+    </span>
+</fieldset>
+<fieldset id="pc">
+    <legend class="w3-large bold-text">Add Previous Commits</legend>
+</fieldset>
+<input type="button" value="Add a Previous Commit" class="button" id="addPC" />
+<input type="button" value="Add Vulnerability Introducing Commit" class="button" id="addVIC" />
+<input type="button" value="Save" class="button" id="savePC" />
+
+<br>
+<hr>
+
+<div class="w3-medium bold-text" id="diff"></div> 
+
+<script>
+var commit = "{{record['commit_id']}}"
+var project = "{{record['project']}}"
+var cve_id = "{{record['cve_id']}}"
+var cwe = "{{record['cwe']}}"
+
+
+var diff_text = ""
+{% autoescape false %}
+{% for line in record['uni_diff_text'] %}
+    {% if "'" in line and '"' in line %}
+        diff_text += "{{line|replace('\"','')}}\n"
+    {% elif "'" in line %}
+        diff_text += "{{line}}\n"
+    {% else %}
+        diff_text += '{{line}}\n'
+    {% endif %}
+{% endfor %}
+
+
+var deleted_lines = {}
+{% for file in record['deleted_lines'] %}
+    deleted_lines['{{file}}'] = {{record['deleted_lines'][file]}}
+{% endfor %}
+
+{% endautoescape %}
+
+const targetElement = document.getElementById('diff');
+const configuration = { drawFileList: true, matching: 'lines' };
+
+const diff2htmlUi = new Diff2HtmlUI(targetElement, diff_text, configuration);
+diff2htmlUi.draw();
+
+for(var file in deleted_lines){
+    $('#files').append(new Option(file, file));
+}
+
+$('#files').on('change', function() {
+    // console.log("change file: " + this.value)
+    $('#lines').empty()
+    for(var idx in deleted_lines[this.value]){
+        line_no = deleted_lines[this.value][idx]
+        $('#lines').append(new Option(line_no, line_no));
+    }
+});
+
+var selectedFile = $('#files').find(":selected").text();
+$('#files').val(selectedFile).trigger('change');
+
+$("#blameBtn").click(function(){
+    var selectedFile = $('#files').find(":selected").text();
+    var selectedLine = $('#lines').find(":selected").text();
+
+    $.ajax({
+            contentType: 'application/json',
+            type: 'POST',
+            url: "/gitblame",
+            data: JSON.stringify({'file': selectedFile, 'line': selectedLine, 'commit': commit, 'project':project}),
+            success: function(result){
+                // console.log(result);
+                blame_commit = result['blame_result']['commit_id']
+                blame_file = result['blame_result']['file']
+                blame_line = result['blame_result']['line']
+                is_init = false;
+                if('is_init' in result['blame_result']){
+                    is_init = result['blame_result']['is_init'];
+                }
+                
+                blame_link = "/blameresult?blame_commit="+blame_commit +"&origin_commit="+commit+"&file="+blame_file+"&line="+blame_line+"&project="+project+"&is_init="+is_init;
+                window.open(blame_link,'_blank');
+            }
+    })
+}); 
+
+$("#addPC").click(function() {
+    	var lastField = $("#pc div:last");
+        var intId = (lastField && lastField.length && lastField.data("idx") + 1) || 1;
+        var fieldWrapper = $("<div class=\"fieldwrapper\" id=\"field" + intId + "\"/>");
+        fieldWrapper.data("idx", intId);
+        var label = $("<span class=\"w3-medium\">Previous Commit: </span>");
+        var fCommit = $("<input type=\"text\" class=\"pcCommit\" />");
+        var fDel = $("<input type=\"text\" class=\"pcDel\" />")
+        var fAdd = $("<input type=\"text\" class=\"pcAdd\" />")
+        // var fType = $("<select class=\"fieldtype\"><option value=\"checkbox\">Checked</option><option value=\"textbox\">Text</option><option value=\"textarea\">Paragraph</option></select>");
+        var removeButton = $("<input type=\"button\" class=\"remove\" value=\"-\" />");
+        removeButton.click(function() {
+            $(this).parent().remove();
+        });
+        fieldWrapper.append(label);
+        fieldWrapper.append(fCommit);
+        fieldWrapper.append(fDel);
+        fieldWrapper.append(fAdd);
+        fieldWrapper.append(removeButton);
+        $("#pc").append(fieldWrapper);
+});
+
+$("#addVIC").click(function() {
+    	var lastField = $("#pc div:last");
+        var intId = (lastField && lastField.length && lastField.data("idx") + 1) || 1;
+        var fieldWrapper = $("<div class=\"fieldwrapper\" id=\"field" + intId + "\"/>");
+        fieldWrapper.data("idx", intId);
+        var label = $("<span class=\"w3-medium\">Vulnerability Introducing Commit: </span>");
+        var fCommit = $("<input type=\"text\" class=\"vicCommit\" />");
+        var removeButton = $("<input type=\"button\" class=\"remove\" value=\"-\" />");
+        removeButton.click(function() {
+            $(this).parent().remove();
+        });
+        fieldWrapper.append(label);
+        fieldWrapper.append(fCommit);
+        fieldWrapper.append(removeButton);
+        $("#pc").append(fieldWrapper);
+});
+
+
+$("#savePC").click(function() {
+    var pcCommits = []
+    $('input[type="text"].pcCommit').each(function () {
+        pcCommits.push($(this).val());
+    });
+    var pcDel = []
+    $('input[type="text"].pcDel').each(function () {
+        pcDel.push($(this).val());
+    });
+    var pcAdd = []
+    $('input[type="text"].pcAdd').each(function () {
+        pcAdd.push($(this).val());
+    });
+    var vic = []
+    $('input[type="text"].vicCommit').each(function () {
+        vic.push($(this).val());
+    });
+
+    var selectedFile = $('#files').val();
+    var selectedLine = $('#lines').val();
+    var vulType = $('#vultype').val();
+
+    console.log(pcCommits)
+    console.log(vic)
+
+    $.ajax({
+            contentType: 'application/json',
+            type: 'POST',
+            url: "/savepc",
+            data: JSON.stringify({'file': selectedFile, 'line': selectedLine, 'commit': commit, 'project':project, 'cve': cve_id, 'cwe': cwe, 'pcCommits': pcCommits, 'pcDel': pcDel, 'pcAdd': pcAdd, 'vic': vic, 'vulType': vulType}),
+            success: function(result){
+                alert(result['msg'])
+            }
+    })
+});
+</script>

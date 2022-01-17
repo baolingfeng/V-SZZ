@@ -1,0 +1,134 @@
+<!doctype html>
+<title>Vulnerability Fixing Commit</title>
+
+<script type="text/javascript" src="{{ url_for('static',filename='jquery-1.9.1.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static',filename='jquery-ui.js') }}"></script>
+
+<link href="{{ url_for('static',filename='tabulator.min.css') }}" rel="stylesheet">
+<script type="text/javascript" src="{{ url_for('static',filename='tabulator.min.js') }}"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html-ui.min.js"></script>
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+<style>
+    .customers {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .customers td, .customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    .customers tr:nth-child(even){background-color: #f2f2f2;}
+    
+    .customers tr:hover {background-color: #ddd;}
+    
+    .customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
+<div>
+    <span class="w3-large bold-text">Project:</span> 
+    <span class="w3-large">{{result['project']}}</span> 
+</div>
+<br>
+<hr>
+
+<div>
+    <span class="w3-large bold-text">Original Commit: </span>
+    <span class="w3-large">{{result['origin_commit']}}</span> 
+</div>
+<div>
+    <span class="w3-large bold-text">Blame Commit: </span>
+    <span class="w3-large">{{result['blame_commit']}}</span> 
+    {% if 'is_init' in result %}
+    <span class="w3-large w3-red">(Init commit)</span> 
+    {% endif %}
+</div>
+<br>
+<hr>
+
+<div>
+    <span class="w3-large bold-text">Blame Line:</span> 
+    <span class="w3-large">{{result['line']}}</span> 
+</div>
+<br>
+<hr>
+
+<div>
+    <span class="w3-large">Deleted Line: </span>
+    <span class="w3-large"><select id="lines"></select> </span>
+    <button class="w3-large bold-text" id="blameBtn">Git Blame</button>
+</div>
+<br>
+<hr>
+
+<div class="w3-medium bold-text" id="diff"></div> 
+
+<script>
+var origin_commit = "{{result['origin_commit']}}"
+var blame_commit = "{{result['blame_commit']}}"
+var project = "{{result['project']}}"
+var file = "{{result['file']}}"
+
+var diff_text = ""
+{% autoescape false %}
+{% for line in result['diff_text'] %}
+    {% if "'" in line and '"' in line %}
+        diff_text += "{{line|replace('\"','')}}\n"
+    {% elif "'" in line %}
+        diff_text += "{{line}}\n"
+    {% else %}
+        diff_text += '{{line}}\n'
+    {% endif %}
+{% endfor %}
+
+var deleted_lines = {{result['deleted_lines']}};
+
+{% endautoescape %}
+
+const targetElement = document.getElementById('diff');
+const configuration = { drawFileList: true, matching: 'lines' };
+
+const diff2htmlUi = new Diff2HtmlUI(targetElement, diff_text, configuration);
+diff2htmlUi.draw();
+
+
+for(var idx in deleted_lines){
+    line_no = deleted_lines[idx]
+    $('#lines').append(new Option(line_no, line_no));
+}
+
+$("#blameBtn").click(function(){
+    var selectedLine = $('#lines').find(":selected").text();
+
+    $.ajax({
+            contentType: 'application/json',
+            type: 'POST',
+            url: "/gitblame",
+            data: JSON.stringify({'file': file, 'line': selectedLine, 'commit': blame_commit, 'project':project}),
+            success: function(result){
+                // console.log(result);
+                blame_commit_new = result['blame_result']['commit_id']
+                blame_file = result['blame_result']['file']
+                blame_line = result['blame_result']['line']
+                is_init = false;
+                if('is_init' in result['blame_result']){
+                    is_init = result['blame_result']['is_init'];
+                }
+
+                blame_link = "/blameresult?blame_commit="+blame_commit_new +"&origin_commit="+blame_commit+"&file="+blame_file+"&line="+blame_line+"&project="+project+"&is_init="+is_init;
+               window.open(blame_link,'_blank');
+            }
+    })
+}); 
+
+</script>
