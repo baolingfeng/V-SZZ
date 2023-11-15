@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
  
 gem 'code-assertions'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 gem 'minitest'
-gem 'sanitize'
+gem 'sanitize', '>= 5.2.2'
