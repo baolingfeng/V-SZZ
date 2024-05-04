@@ -25,7 +25,7 @@ redis==3.5.3
 requests==2.26.0
 six==1.16.0
 smmap==4.0.0
-tqdm==4.62.2
+tqdm==4.66.3
 typing-extensions==3.10.0.0
 unidiff==0.6.0
 urllib3==1.26.6
